@@ -6,6 +6,14 @@ menu */
 /*<div class="right"> would be .right */
 /*<div id="right"> would be #right */
 
+body {
+  background-color: #d50f25;
+}
+
+p {
+    font-colour: #ffffff;
+}
+
 div {
     border-radius: 5px;
 }
