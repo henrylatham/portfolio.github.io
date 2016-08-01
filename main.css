@@ -34,8 +34,8 @@ a:hover {
     position: absolute;
     top: 0px;
     right: 0px;
-    max-width: 20%;
-    max-height: 20%;
+    width: 20%;
+    height: 20%;
 }
 
 
