@@ -29,8 +29,8 @@ a:hover {
 
 #apple {
     position: relative;
-    max-width: 20%
-    max-height: 20%;
+    width: 30px;
+    height: 45px;
 }
 #apple img {
     position: absolute;
