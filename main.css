@@ -18,6 +18,10 @@ div {
     border-radius: 5px;
 }
 
+a {
+  text-underline: none;
+}
+
 a:hover {
     font-weight: bold;
     text-decoration: underline;
