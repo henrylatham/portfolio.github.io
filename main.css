@@ -10,6 +10,10 @@ div {
     border-radius: 5px;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
 #header h1 {
   font-size: 100px;
   font-family: Lato Light, Open Sans, Helvetica;
