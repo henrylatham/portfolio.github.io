@@ -12,6 +12,12 @@ li {
     display: inline;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 #tagline {
   font-size: 65px;
   font-weight: Thin, Hairline;
