@@ -8,12 +8,8 @@ body {
   background-color: #00BBD3;
 }
 
-
-header {
-  border: 1px solid black;
-  display: inline;
-  width: 100%;
-  height: 48px;
+li {
+    display: inline;
 }
 
 #tagline {
