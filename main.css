@@ -41,13 +41,21 @@ a:hover {
     position: absolute;
     top: 0px;
     right: 0px;
-    border-right: 5px;
-    border-top: 0px;
+    padding-right: 5px;
+    padding-top: 0px;
 }
 
 
 #header h1 {
   font-size: 100px;
+  font-weight: Light;
+  position: relative; 
+  bottom:0%;
+  width:100%; 
+  opacity: 1;
+}
+  
+  ;
 }
 
 #about p {
