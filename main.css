@@ -1,15 +1,20 @@
 html * {
-  padding: 4px;
-  margin: 20px;
-  font-color: #ffffff;
+  padding: 8px;
   font-family: Open Sans, Helvetica;
+  color: #ffffff;
 }
 
 body {
   background-color: #00BBD3;
 }
 
+
 #header {
   border: 1px solid black;
   display: inline;
+}
+
+#tagline {
+  font-size: 100px;
+  font-weight: Thin;
 }
