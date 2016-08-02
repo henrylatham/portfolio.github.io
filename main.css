@@ -28,13 +28,15 @@ div {
     border-radius: 8px;
 }
 
-a {
+a[href="https://uk.linkedin.com/in/henry-latham-a78245a6"] {
+  color: #ffffff;
   text-underline: none;
 }
 
 a:hover {
     font-weight: bold;
     text-decoration: underline;
+    opacity: 87%;
 }
 
 #apple {
@@ -54,7 +56,6 @@ a:hover {
   font-weight: Light;
   position: relative; 
   padding-top: 200px;
-  padding-right: -2px;
   bottom:0%;
   width:100%; 
   opacity: 1;
@@ -70,7 +71,6 @@ a:hover {
   font-family: Lato Italic;
   font-size: 30px;
   top: 50px;
-  padding-left: -6px;
 }
 
 #menu img {
