@@ -54,6 +54,7 @@ a:hover {
   font-weight: Light;
   position: relative; 
   padding-top: 100px;
+  padding-right: -2px;
   bottom:0%;
   width:100%; 
   opacity: 1;
