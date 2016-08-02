@@ -40,9 +40,9 @@ a:hover {
 }
 #apple img {
     position: absolute;
-    top: 0px;
-    right: 0px;
-    padding-right: 5px;
+    top: -2px;
+    right: -5px;
+    padding-right: 10px;
     padding-top: 0px;
 }
 
