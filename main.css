@@ -12,6 +12,8 @@ html *
   color: #ffffff !important;
   font-family: Lato Hairline, Open Sans Light, Helvetica;
   margin-left: 20px;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 body {
