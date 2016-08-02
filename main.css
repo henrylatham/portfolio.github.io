@@ -1,1 +1,10 @@
+* html {
+  padding: 4px;
+  margin: 20px;
+  font-color: #ffffff;
+  font-family: Open Sans, Helvetica;
+}
 
+body {
+  background-color: #00BBD3;
+}
