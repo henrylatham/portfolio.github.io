@@ -6,6 +6,13 @@ menu */
 /*<div class="right"> would be .right */
 /*<div id="right"> would be #right */
 
+html *
+{
+
+  color: #ffffff !important;
+  font-family: Lato Hairline, Open Sans Light, Helvetica;
+}
+
 body {
   background-color: #d50f25;
 }
@@ -41,7 +48,6 @@ a:hover {
 
 #header h1 {
   font-size: 100px;
-  font-family: Lato Hairline, Open Sans Light, Helvetica;
 }
 
 #about p {
