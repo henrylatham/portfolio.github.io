@@ -40,12 +40,15 @@ a:hover {
 }
 
 #fixedheader {
-  opacity: 0.2;
-  padding-top: -24px;
+  position:fixed;
+  top:0px;
+  padding: 20px;
   background-color: #ffffff;
-}
+  left:0px;
+	width:100%;
+  
 
-#fixedheader h2 {
+#fixedheader p {
   opacity: 0;
 }
 
