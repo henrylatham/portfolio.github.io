@@ -45,6 +45,10 @@ a:hover {
   background-color: #ffffff;
 }
 
+#fixedheader h2 {
+  opacity: 0;
+}
+
 #apple {
     position: relative;
 }
