@@ -53,6 +53,7 @@ a:hover {
   font-size: 100px;
   font-weight: Light;
   position: relative; 
+  padding-top: 100px;
   bottom:0%;
   width:100%; 
   opacity: 1;
