@@ -59,7 +59,7 @@ a:hover {
 
 #about p {
   font-family: Lato Italic;
-  font-size: 40px;
+  font-size: 30px;
   top: 50px;
 }
 
@@ -67,4 +67,6 @@ a:hover {
 bottom: 0;
 position: absolute;
 padding: 5px;
+width: 45px;
+height: 45px;
 }
