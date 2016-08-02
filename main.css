@@ -15,6 +15,6 @@ header {
 }
 
 #tagline {
-  font-size: 60px;
-  font-weight: Thin;
+  font-size: 90px;
+  font-weight: Thin, Hairline;
 }
