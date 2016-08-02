@@ -56,8 +56,6 @@ a:hover {
   opacity: 1;
 }
   
-  ;
-}
 
 #about p {
   font-family: Lato Italic;
@@ -65,3 +63,8 @@ a:hover {
   top: 50px;
 }
 
+#menu img {
+left: 0;
+bottom: 0;
+position: absolute;
+}
