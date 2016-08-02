@@ -1,4 +1,4 @@
-* html {
+html * {
   padding: 4px;
   margin: 20px;
   font-color: #ffffff;
@@ -7,4 +7,9 @@
 
 body {
   background-color: #00BBD3;
+}
+
+#header {
+  border: 1px solid black;
+  display: inline;
 }
