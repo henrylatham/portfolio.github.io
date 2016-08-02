@@ -45,17 +45,18 @@ a:hover {
   padding: 20px;
   background-color: #ffffff;
   left:0px;
-	width:100%;
+  width:100%;
+  opacity: 0%;
   
 
 #fixedheader p {
   opacity: 0;
 }
 
-#apple {
+header {
     position: relative;
 }
-#apple img { 
+header img { 
     position: absolute;
     top: -2px;
     right: -5px;
