@@ -40,7 +40,9 @@ a:hover {
 }
 
 #fixedheader {
-  opacity: 0;
+  opacity: 0.2;
+  padding-top: -24px;
+  background-color: #ffffff;
 }
 
 #apple {
