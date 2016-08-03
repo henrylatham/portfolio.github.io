@@ -12,8 +12,14 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 5px;
+    font-size: 12px;
     display: inline;
+}
+
+li {
+  display: inline;
+  border: 2px;
+  border-color: black;
 }
 
 #tagline {
