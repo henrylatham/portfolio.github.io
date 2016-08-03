@@ -57,6 +57,8 @@ ul.topnav li.icon {display: none;}
   color: #ffffff;
   width: 40px;
   height: 40px;
-  bottom: 5px;
+  position: fixed;
+  left:5;
+  bottom:5;
   padding-top: 10px;
 }
