@@ -48,9 +48,9 @@ ul.topnav li.icon {display: none;}
 /* MAIN CONTENT */
 
 #tagline {
-  font-size: 65px;
+  font-size: 40px;
   font-weight: Thin, Hairline;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 2px 2px 2px #aaa;
 }
 
 #menu {
