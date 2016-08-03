@@ -52,3 +52,9 @@ ul.topnav li.icon {display: none;}
   font-weight: Thin, Hairline;
   text-shadow: 4px 4px 4px #aaa;
 }
+
+#menu {
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+}
