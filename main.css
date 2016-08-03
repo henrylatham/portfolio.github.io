@@ -1,5 +1,6 @@
 html * {
   padding-left: 8px;
+  text-align: left;
   font-family: Roboto, Open Sans, Helvetica;
   color: #ffffff;
 }
@@ -48,7 +49,6 @@ ul.topnav li.icon {display: none;}
 /* MAIN CONTENT */
 
 #tagline {
-  padding-left: -8px;
   font-size: 60px;
   font-weight: Thin, Hairline;
   text-shadow: 2px 2px 2px #aaa;
