@@ -55,8 +55,8 @@ ul.topnav li.icon {display: none;}
 
 #menu {
   color: #ffffff;
-  width: 48px;
-  height: 48px;
+  width: 200%;
+  height: 200%;
   position: fixed;
   left:16px;
   bottom:2px;
