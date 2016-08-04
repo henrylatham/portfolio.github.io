@@ -1,17 +1,17 @@
 //$('.button').someAction for a class//
 
 $(document).ready(function() {
-   $('#menu').mouseenter(function() {
+   $('#tagline').mouseenter(function() {
        $(this).animate({
            height: '+=10px'
        });
    });
-   $('#menu').mouseleave(function() {
+   $('#tagline').mouseleave(function() {
        $(this).animate({
            height: '-=10px'
        }); 
    });
-   $('#menu').click(function() {
+   $('#tagline').click(function() {
        $(this).toggle(1000);
    }); 
 });
