@@ -44,6 +44,15 @@ ul.topnav li a:hover {background-color: #ffffff; opacity: 0.1;}
 ul.topnav li.icon {display: none;}
 
 
+/* JQUERY TEST */
+#green {
+    height:100px;
+    width:100px;
+    background-color:#FF0000;
+    border-radius:5px;
+    margin-bottom:5px;
+    background-color:#008800;
+}
 
 
 /* MAIN CONTENT */
