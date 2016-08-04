@@ -1,4 +1,6 @@
-//$('.button').someAction for a class//
+
 $(document).ready(function() {
-    $('div').fadeOut(1000);
+    $('#menu').click(function() {
+        $(this).effect('bounce', {times: 3}, 500);
+    });
 });
