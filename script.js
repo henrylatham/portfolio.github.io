@@ -1,4 +1,4 @@
 //$('.button').someAction for a class//
 $(document).ready(function() {
-    $('#green').fadeOut(1000);
+    $('div').fadeOut(1000);
 });
