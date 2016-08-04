@@ -1,15 +1,17 @@
+//$('.button').someAction for a class//
+
 $(document).ready(function() {
-   $('svg').mouseenter(function() {
+   $('#menu').mouseenter(function() {
        $(this).animate({
            height: '+=10px'
        });
    });
-   $('svg').mouseleave(function() {
+   $('#menu').mouseleave(function() {
        $(this).animate({
            height: '-=10px'
        }); 
    });
-   $('svg').click(function() {
+   $('#menu').click(function() {
        $(this).toggle(1000);
    }); 
 });
