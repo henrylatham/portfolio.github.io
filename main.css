@@ -1,5 +1,6 @@
 html * {
-  padding-left: 8px;
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: left;
   font-family: Roboto, Open Sans, Helvetica;
   color: #ffffff;
