@@ -8,7 +8,7 @@ html * {
 body {
 }
 
-#header {
+header {
   float:center;
   display:inline;
   height:100px;
@@ -16,7 +16,7 @@ body {
   color: red;
 }
 
-#header nav {
+header #nav {
     text-align:center;
     font-size:100px;
     padding: 17px 8px 17px 8px;
