@@ -6,13 +6,15 @@ html * {
 }
 
 body {
+  height:100px;
+  width:680px;
 }
 
 header {
   float:center;
   display:inline;
   height:100px;
-  width:680;
+  width:680px;
   color: red;
 }
 
