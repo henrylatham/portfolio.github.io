@@ -1,63 +1,8 @@
 html * {
-  padding-left: 8px;
   text-align: left;
-  font-family: Roboto, Open Sans, Helvetica;
+  font-family: 'Open Sans', sans-serif;
   color: #ffffff;
 }
 
 body {
-  background-color: #00BBD3;
-}
-
-
-
-/* HEADER NAV CODE */
-
-/* Remove margins and padding from the list, and add a black background color */
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #00BBD3;
-    opacity: 1;
-}
-
-/* Float the list items side by side */
-ul.topnav li {float: right;}
-
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #ffffff; opacity: 0.1;}
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
-
-
-
-/* MAIN CONTENT */
-
-#tagline {
-  font-size: 60px;
-  font-weight: Thin, Hairline;
-  text-shadow: 2px 2px 2px #aaa;
-}
-
-#menu {
-  color: #ffffff;
-  position: fixed;
-  left:16px;
-  bottom:2px;
-  margin-top: 10px;
-  padding: 8px;
 }
