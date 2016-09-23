@@ -5,11 +5,12 @@ html, body {
   background-color: #ffffff;
 }
 
-header {
+#header {
 	text-align:center;
+	position: center;
 }
 
-#nav
+#header nav
 {
     height:100px;
     width:680px;
