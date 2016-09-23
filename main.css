@@ -8,7 +8,7 @@ html, body {
 #header { 
 	border:0px hidden; 
 	height:100px; 
-	position:fixed; 
+	position:center; 
 	width:680px; 
 	top:0; 
 	margin: auto; 
