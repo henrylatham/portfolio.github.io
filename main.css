@@ -16,7 +16,7 @@ html, body {
   float: left;
 }
 
-#header .ul {
+ul {
   display: inline-block;
   float: right;
 }
