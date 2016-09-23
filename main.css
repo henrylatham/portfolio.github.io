@@ -5,14 +5,20 @@ html, body {
   background-color: #ffffff;
 }
 
-#header { 
-	border:0px hidden; 
-	height:100px; 
-	position:center; 
-	width:680px; 
-	top:0; 
-	margin: auto; 
-	display: block;
+header {
+	text-align:center;
+}
+
+#nav
+{
+    height:100px;
+    width:680px;
+    margin-top:0px;
+    background-color:white;
+    margin: 0 auto;
+    text-align:center;
+    border-radius:8px 17px 8px 17px;
+    display:inline-block;
 }
 
 
