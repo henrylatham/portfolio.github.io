@@ -4,7 +4,7 @@ html, body {
   background-color: #ffffff;
 }
 
-.header {
+#header {
     height:100px;
     max-width:680px;
     margin-top:0 auto;
@@ -12,11 +12,11 @@ html, body {
     display:inline-block;
 }
 
-.header img {
+#header .img {
   float: left;
 }
 
-.header ul {
-  display: none
+#header .ul {
+  display: inline-block;
   float: right;
 }
