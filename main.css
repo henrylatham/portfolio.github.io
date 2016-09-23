@@ -5,16 +5,14 @@ html, body {
   background-color: #ffffff;
 }
 
-#header {
-  width: 680px;
-	height: 100px;
+#header { 
+	border:0px hidden; 
+	height:100px; 
+	position:fixed; 
+	width:680px; 
+	top:0; 
+	margin: auto; 
+	display: block;
 }
-
-#header .logo {
-	width: 56px;
-	height: 56px;
-	object-fit: contain;
-}
-
 
 
