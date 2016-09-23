@@ -13,9 +13,10 @@ body {
   display:inline;
   height:100px;
   width:680;
+  color: red;
 }
 
-#header nav {
+#header {
     text-align:center;
     font-size:12px;
     padding: 17px 8px 17px 8px;
