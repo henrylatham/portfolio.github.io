@@ -2,16 +2,12 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   color: #222E37;
   background-color: #ffffff;
-  height:100px;
-  max-width:680px;
 }
 
 #header {
-    height:100px;
     max-width:680px;
-    margin-top:0 auto;
+    margin:0 auto;
     background-color:white;
-    display:inline-block;
 }
 
 #header .img {
@@ -19,8 +15,12 @@ html, body {
 }
 
 ul {
-  display: inline-block;
   float: right;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
 }
 
 #home {
