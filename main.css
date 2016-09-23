@@ -7,3 +7,21 @@ html * {
 
 body {
 }
+
+#header {
+  float:center;
+  display:inline;
+  height:100px;
+  width:680;
+}
+
+#header nav {
+    text-align:center;
+    font-size:12px;
+    padding: 17px 8px 17px 8px;
+    font-weight:bold;
+    float:left;
+    text-decoration:none;
+}
+
+
