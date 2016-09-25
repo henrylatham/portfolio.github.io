@@ -15,6 +15,42 @@ p a {
   text-decoration: underline;
 }
 
+h1,
+h2,
+h3,
+h4, {
+}
+
+a {
+}
+
+a:hover,
+a:focus {
+  opacity: 0.7;
+}
+a img:hover,
+a img:focus {
+  cursor: zoom-in;
+}
+
+img {
+  margin-top: 3.70cm;
+   height: 5.76cm;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+
+
 
 #header {
     max-width:680px;
@@ -29,14 +65,6 @@ p a {
   padding:2.2cm 1.9cm 2.2cm 1.9cm;
 }
 
-ul {
-  float: right;
-}
-
-ul li {
-  display: inline-block;
-  list-style: none;
-}
 
 #home {
   padding-top: 1.85cm;
@@ -46,11 +74,4 @@ ul li {
 #BackTracker {
   padding-top: 3.70cm;
   width: 100%;
-}
-
-img {
-  margin-top: 3.70cm;
-   height: 5.76cm;
-  width: 100%;
-  overflow-x: hidden;
 }
