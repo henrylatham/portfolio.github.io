@@ -2,6 +2,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   color: #222E37;
   background-color: #ffffff;
+  display: block;
 }
 
 #header {
