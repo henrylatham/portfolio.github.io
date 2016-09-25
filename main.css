@@ -33,13 +33,6 @@ a img:focus {
   cursor: zoom-in;
 }
 
-img {
-  margin-top: 370px;
-   height: 576px;
-  width: 100%;
-  overflow-x: hidden;
-}
-
 ul {
   float: right;
 }
@@ -74,7 +67,6 @@ ul < li {
   padding:22px 19px 22px 19px;
 }
 
-
 #home {
   padding-top: 185px;
   vertical-align: middle;
@@ -83,4 +75,11 @@ ul < li {
 #BackTracker {
   padding-top: 370px;
   width: 100%;
+}
+
+#display {
+  margin-top: 370px;
+   height: 576px;
+  width: 100%;
+  overflow-x: hidden;
 }
