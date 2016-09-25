@@ -34,8 +34,8 @@ a img:focus {
 }
 
 img {
-  margin-top: 37.0px;
-   height: 57.6px;
+  margin-top: 370px;
+   height: 576px;
   width: 100%;
   overflow-x: hidden;
 }
@@ -62,7 +62,7 @@ ul < li {
 
 
 #header {
-    max-width:68.0px;
+    max-width: 680px;
     margin:0 auto;
     background-color: #ffffff;
 }
@@ -76,11 +76,11 @@ ul < li {
 
 
 #home {
-  padding-top: 18.5px;
+  padding-top: 185px;
   vertical-align: middle;
 }
 
 #BackTracker {
-  padding-top: 37.0px;
+  padding-top: 370px;
   width: 100%;
 }
