@@ -34,8 +34,8 @@ a img:focus {
 }
 
 img {
-  margin-top: 3.70cm;
-   height: 5.76cm;
+  margin-top: 37.0px;
+   height: 57.6px;
   width: 100%;
   overflow-x: hidden;
 }
@@ -53,25 +53,25 @@ ul li {
 
 
 #header {
-    max-width:680px;
+    max-width:68.0px;
     margin:0 auto;
     background-color: #ffffff;
 }
 
 #header .img {
   float: left;
-  height: 5.6cm;
-  width: 5.6cm;
-  padding:2.2cm 1.9cm 2.2cm 1.9cm;
+  height: 56px;
+  width: 56px;
+  padding:22px 19px 22px 19px;
 }
 
 
 #home {
-  padding-top: 1.85cm;
+  padding-top: 18.5px;
   vertical-align: middle;
 }
 
 #BackTracker {
-  padding-top: 3.70cm;
+  padding-top: 37.0px;
   width: 100%;
 }
