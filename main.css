@@ -12,6 +12,9 @@ html, body {
 
 #header .img {
   float: left;
+  height: 56px;
+  width: 56px;
+  padding:22px 19px 22px 19px;
 }
 
 ul {
@@ -33,8 +36,9 @@ ul li {
   width: 100%;
 }
 
-#display {
-  margin-top: 370px
-  height: 576px;
+img {
+  margin-top: 370px;
+   height: 576px;
   width: 100%;
+  overflow-x: hidden;
 }
