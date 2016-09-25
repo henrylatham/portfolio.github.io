@@ -26,7 +26,7 @@ a {
 
 a:hover,
 a:focus {
-  opacity: 0.7;
+  opacity: 100%;
 }
 a img:hover,
 a img:focus {
@@ -47,8 +47,16 @@ ul {
 ul li {
   display: inline-block;
   list-style: none;
+  padding: 8px;
+  margin: 8px 17px 8px 17px;
+  color: #222E37;
+  opacity: 34%;
 }
 
+ul < li {
+  color: #0077FF;
+  padding: 8px 24px 8px 8px;
+}
 
 
 
