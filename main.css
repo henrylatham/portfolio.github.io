@@ -7,14 +7,14 @@ html, body {
 #header {
     max-width:680px;
     margin:0 auto;
-    background-color:white;
+    background-color: #ffffff;
 }
 
 #header .img {
   float: left;
-  height: 56cm;
-  width: 56cm;
-  padding:22cm 19cm 22cm 19cm;
+  height: 5.6cm;
+  width: 5.6cm;
+  padding:2.2cm 1.9cm 2.2cm 1.9cm;
 }
 
 ul {
@@ -27,18 +27,18 @@ ul li {
 }
 
 #home {
-  padding-top: 185cm;
+  padding-top: 1.85cm;
   vertical-align: middle;
 }
 
 #BackTracker {
-  padding-top: 370cm;
+  padding-top: 3.70cm;
   width: 100%;
 }
 
 img {
-  margin-top: 370cm;
-   height: 576cm;
+  margin-top: 3.70cm;
+   height: 5.76cm;
   width: 100%;
   overflow-x: hidden;
 }
