@@ -5,6 +5,17 @@ html, body {
   display: block;
 }
 
+p {
+   font-size: 20px;
+   line-height: 2.4px;
+   max-width: 600px;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+
 #header {
     max-width:680px;
     margin:0 auto;
