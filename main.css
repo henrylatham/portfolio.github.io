@@ -13,12 +13,13 @@ p {
 }
 
 li a {
-  text-decoration: none;
-  font-size: 12px;
+  	text-decoration: none;
+  	font-size: 12px;
 	font-weight: 600;
 	line-height: 1.8;
 	letter-spacing: -0.3px;
 	color: #222e37;
+	opacity: 0.54;
 }
 
 h1{
@@ -32,7 +33,7 @@ h2{
 h3{
   font-size: 22px;
   letter-spacing: 0.35px;
-  opacity: 54%;
+  opacity: 0.54;
 }
 }
 
@@ -43,7 +44,7 @@ h4, {
 h5 {
   font-size: 12px;
   letter-spacing: 0px;
-  opacity: 54%;
+  opacity: 0.54;
 }
 
 
@@ -52,7 +53,7 @@ a {
 
 a:hover,
 a:focus {
-  opacity: 100%;
+  opacity: 1;
 }
 a img:hover,
 a img:focus {
@@ -72,14 +73,11 @@ ul.header-list li {
   list-style: none;
   padding: 8px;
   margin: 8px 17px 8px 17px;
-  color: #222E37;
-  opacity: 34%;
   text-decoration: none;
 }
 
-ul < li {
+ul < li a {
   color: #0077FF;
-  padding: 8px 24px 8px 8px;
 }
 
 /*! Header div */
