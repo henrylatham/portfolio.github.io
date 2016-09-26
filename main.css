@@ -138,10 +138,12 @@ img.logo {
          margin: 0;
 	}
 	
+/*! Post title & sub-heading */
 ul .post-inline-block{
 	display: inline;
 	padding-left: 27px;
 	text-decoration: none;
+	list-style-type: none;
 	}
 
 	
