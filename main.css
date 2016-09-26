@@ -18,8 +18,11 @@ li a {
 	font-weight: 600;
 	line-height: 1.8;
 	letter-spacing: -0.3px;
-	opacity: 0.54;
 	color: #222e37;
+}
+
+a {
+	opacity: 0.54;
 }
 
 h1{
