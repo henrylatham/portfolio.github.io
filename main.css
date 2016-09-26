@@ -101,22 +101,20 @@ img.header {
   display: block;
 }
 
-.me {
+.intro-image {
     top: 185px;
+    vertical-align: top;
 }
 
-.me, .site-heading, .subheading {
+.intro-image, .intro-text {
   position: relative;
   display: block;
 }
 
-.site-heading {
+.intro-text {
   margin: 24px;
 }
 
-.subheading {
-  margin: 16px;
-}
 
 .container {
       position:relative;
