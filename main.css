@@ -107,6 +107,10 @@ img.header {
     top: 185px;
 }
 
+.me, .site-heading, .subheading {
+  position: relative;
+}
+
 
 .container {
       position:relative;
