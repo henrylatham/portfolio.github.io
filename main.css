@@ -108,6 +108,7 @@ img.header {
 
 .me, .site-heading, .subheading {
   position: relative;
+  display: block;
 }
 
 
