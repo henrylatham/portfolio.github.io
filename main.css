@@ -90,7 +90,7 @@ img.header {
   padding:22px 19px 22px 19px;
 }
 
-.home {
+.row {
   top: 185px;
   vertical-align: middle;
   text-align: center;
@@ -104,14 +104,14 @@ img.header {
       margin: 0 auto;
 }
 
-   .post-preview {
+.post-preview {
       width: 100%;
-   }
+}
 
-   @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
       .post-preview {
          width: 100%;
          overflow: hidden;
-         margin: 0 -150px 0 -150px;
+         margin: 0;
       }
-   }
+}
