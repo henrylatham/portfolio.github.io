@@ -12,13 +12,13 @@ p {
    text-align: left;
 }
 
-li a {
+a {
   	text-decoration: none;
   	font-size: 12px;
 	font-weight: 600;
 	line-height: 1.8;
 	letter-spacing: -0.3px;
-	opacity: 0.54;
+	opacity: 0.1;
 	color: #222e37;
 }
 
@@ -48,8 +48,6 @@ h5 {
 }
 
 
-a {
-}
 
 a:hover,
 a:focus {
