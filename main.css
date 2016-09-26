@@ -56,13 +56,13 @@ a img:focus {
 
 /*! Header list items */
 
-ul {
+ul.header-list {
   float: right;
   padding-right: 24px;
   margin: auto;
 }
 
-ul li {
+ul.header-list li {
   display: inline-block;
   list-style: none;
   padding: 8px;
