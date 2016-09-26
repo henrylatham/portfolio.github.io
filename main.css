@@ -70,8 +70,9 @@ ul li {
   text-decoration: none;
 }
 
-li:last-child {
+ul < li {
   color: #0077FF;
+  padding: 8px 24px 8px 8px;
 }
 
 
@@ -82,16 +83,17 @@ div.header {
     background-color: #ffffff;
 }
 
-.header  {
+img.header {
   float: left;
+  height: 56px;
+  width: 56px;
   padding:22px 19px 22px 19px;
 }
 
-.intro-header {
+.home {
   top: 185px;
   vertical-align: middle;
   text-align: center;
-  display: block;
 }
 
 
@@ -102,7 +104,7 @@ div.header {
       margin: 0 auto;
 }
 
-.post-preview {
+   .post-preview {
       width: 100%;
    }
 
