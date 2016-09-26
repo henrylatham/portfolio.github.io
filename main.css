@@ -120,11 +120,14 @@ img.logo {
 	}
 
 
-.container {
-      position:relative;
-      height: 409px;
-      width: 680px;
-      margin: 0 auto;
+/*! Post layout e.g. BackTracker */
+
+.post {
+      	position:relative;
+	display: block;
+      	height: 409px;
+      	width: 680px;
+      	margin: 0 auto;
 	}
 
 .post-preview {
@@ -153,7 +156,7 @@ ul .post-inline-block{
 footer {
 	width:640;
 	height:100px;
-	position:absolute;
+	position:relative;
 	bottom:0;
 	max-width: 680px;
     	left: 50%;
