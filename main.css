@@ -111,6 +111,13 @@ img.header {
   display: block;
 }
 
+.site-heading {
+  margin: 24px;
+}
+
+.subheading {
+  margin: 16px;
+}
 
 .container {
       position:relative;
