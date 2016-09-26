@@ -110,6 +110,7 @@ img.logo {
 .intro-image {
     	top: 185px;
 	display: block;
+	vertical-align: top;
 }
 
 .intro-text {
