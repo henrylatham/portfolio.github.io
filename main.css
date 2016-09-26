@@ -12,7 +12,7 @@ p {
    text-align: left;
 }
 
-a {
+ul li a {
   	text-decoration: none;
   	font-size: 12px;
 	font-weight: 600;
@@ -22,7 +22,7 @@ a {
 	opacity: 0.54;
 }
 
-a:hover {
+ul li a:hover {
   opacity: 1;
 }
 
