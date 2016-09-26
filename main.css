@@ -18,7 +18,6 @@ li a {
 	font-weight: 600;
 	line-height: 1.8;
 	letter-spacing: -0.3px;
-	color: #222e37;
 	opacity: 0.54;
 }
 
@@ -91,8 +90,13 @@ img.header {
   padding:22px 19px 22px 19px;
 }
 
+/*! Header list colours */
 .contact-list-item {
 	color: #0077ff;
+}
+
+.workabout {
+	color: #222e37;
 }
 
 /*! Intro section */
