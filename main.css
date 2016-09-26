@@ -2,7 +2,6 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   color: #222E37;
   background-color: #ffffff;
-  display: block;
 }
 
 p {
@@ -71,9 +70,8 @@ ul li {
   text-decoration: none;
 }
 
-ul < li {
+li:last-child {
   color: #0077FF;
-  padding: 8px 24px 8px 8px;
 }
 
 
@@ -86,14 +84,7 @@ div.header {
 
 .header  {
   float: left;
-  height: 56px;
-  width: 56px;
   padding:22px 19px 22px 19px;
-}
-
-.me {
-  max-height: 126px;
-  max-width: 126px;
 }
 
 .intro-header {
