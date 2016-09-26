@@ -22,6 +22,16 @@ a {
 	opacity: 0.54;
 }
 
+a:hover {
+  opacity: 1;
+}
+
+/*!-- add for image?
+a img:hover,
+a img:focus {
+  cursor: zoom-in;
+}  --*/
+
 
 
 h1{
@@ -49,16 +59,6 @@ h5 {
   opacity: 0.54;
 }
 
-
-
-a:hover {
-  opacity: 1;
-}
-
-a img:hover,
-a img:focus {
-  cursor: zoom-in;
-}
 
 
 /*! Header list items */
