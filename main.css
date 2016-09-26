@@ -106,8 +106,9 @@ img.logo {
 }
 
 .intro-image {
-    top: 185px;
-    vertical-align: top;
+    	top: 185px;
+    	vertical-align: top;
+	left: 5%;
 }
 
 .intro-image, .intro-text {
