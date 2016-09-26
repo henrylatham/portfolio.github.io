@@ -84,19 +84,19 @@ div.header {
     background-color: #ffffff;
 }
 
-img.header {
+div.header  {
   float: left;
   height: 56px;
   width: 56px;
   padding:22px 19px 22px 19px;
 }
 
-img.me {
+div.me {
   max-height: 126px;
   max-width: 126px;
 }
 
-.intro-header {
+div.intro-header {
   top: 185px;
   vertical-align: middle;
   text-align: center;
@@ -104,14 +104,14 @@ img.me {
 }
 
 
-.container {
+div.container {
       position:relative;
       height: 409px;
       width: 680px;
       margin: 0 auto;
 }
 
-.post-preview {
+img.post-preview {
       width: 100%;
    }
 
