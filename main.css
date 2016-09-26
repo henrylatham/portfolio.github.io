@@ -19,6 +19,7 @@ li a {
 	line-height: 1.8;
 	letter-spacing: -0.3px;
 	opacity: 0.54;
+	color: #222e37;
 }
 
 h1{
@@ -90,14 +91,6 @@ img.header {
   padding:22px 19px 22px 19px;
 }
 
-/*! Header list colours */
-.contact-list-item {
-	color: #0077ff;
-}
-
-.workabout {
-	color: #222e37;
-}
 
 /*! Intro section */
 
