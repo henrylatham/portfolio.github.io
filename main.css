@@ -156,5 +156,21 @@ footer {
 	position:absolute;
 	bottom:0;
 	max-width: 680px;
-    	margin:0 auto;
+    	left: 50%;
+	right: 50%;
+	display: inline;
 	}
+
+	
+ul.footer-icons {
+ 	float: right;
+  	padding-right: 24px;
+  	margin: auto;
+	list-style: none;
+	}
+
+.copyright {
+  display: inline;
+  padding: 32px 24px 32px 24px;
+  text-decoration: none;
+}
