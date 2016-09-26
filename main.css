@@ -93,14 +93,14 @@ ul < li {
   vertical-align: middle;
 }
 
-#BackTracker {
+div.BackTracker {
   top: 370px;
   width: 100%;
 }
 
-#display {
-  top: 370px;
+
+@media screen and (max-device-width: 1024px) {
   height: 576px;
-  width: 100%;
+  max-width: 1024px;
   overflow-x: hidden;
 }
