@@ -93,7 +93,7 @@ img.logo {
 	color: #0077ff;
 	}
 
-/*! Intro section */
+/*! Intro section - Henry Latham, UX/UI Designer */
 
 .intro-container {
   text-align: center;
@@ -145,3 +145,14 @@ ul .post-inline-block{
 	}
 
 	
+	
+/*! Footer section */
+	
+footer {
+	width:640;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	max-width: 680px;
+    	margin:0 auto;
+	}
