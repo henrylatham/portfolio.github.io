@@ -12,7 +12,7 @@ p {
    text-align: left;
 }
 
-a {
+li a {
   	text-decoration: none;
   	font-size: 12px;
 	font-weight: 600;
@@ -22,15 +22,13 @@ a {
 	opacity: 0.54;
 }
 
-.header-list:hover {
+li a:hover {
   opacity: 1; 
 }
 
-/*!-- add for image?
-a img:hover,
-a img:focus {
-  cursor: zoom-in;
-}  --*/
+a img:hover {
+	opacity: 0.54;
+}
 
 
 
