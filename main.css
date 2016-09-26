@@ -94,6 +94,9 @@ img.header {
   top: 185px;
   vertical-align: middle;
   text-align: center;
+  width: 100%;
+  height: 681px;
+  display: block;
 }
 
 
