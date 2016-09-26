@@ -109,14 +109,16 @@ img.logo {
     	top: 185px;
 	display: block;
     	margin-left: auto;
-    	margin-right: auto;
+    	margin-right: auto
+}
+
+.intro-image, .intro-text {
+  position: relative;
+  display: block;
 }
 
 .intro-text {
 	margin-top: 190px;
-	margin-left: auto;
-    	margin-right: auto;
-	
 }
 
 
