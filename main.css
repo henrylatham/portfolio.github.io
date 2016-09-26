@@ -90,9 +90,9 @@ img.header {
   padding:22px 19px 22px 19px;
 }
 
-.me {
-  height: 126px;
-  width: 126px;
+img.me {
+  max-height: 126px;
+  max-width: 126px;
 }
 
 .intro-header {
