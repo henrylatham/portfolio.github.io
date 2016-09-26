@@ -93,7 +93,7 @@ ul < li {
   vertical-align: middle;
 }
 
-#BackTracker {
+div.post-preview {
   top: 370px;
   width: 100%;
 }
