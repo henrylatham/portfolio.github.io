@@ -2,22 +2,34 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   color: #222E37;
   background-color: #ffffff;
-  display: block;
 }
 
 p {
    font-size: 20px;
    line-height: 2.4px;
    max-width: 600px;
+   margin: auto;
 }
 
-p a {
-  text-decoration: underline;
+li a {
+  text-decoration: none;
 }
 
-h1,
-h2,
-h3,
+h1{
+  font-size: 65px;
+  letter-spacing: 0.2px;
+}
+
+h2{
+}
+
+h3{
+  font-size: 22px;
+  letter-spacing: 0.35px;
+  opacity: 0.54;
+}
+}
+
 h4, {
 }
 
