@@ -12,13 +12,23 @@ p {
    text-align: left;
 }
 
-li a {
+li.workabout {
   	text-decoration: none;
   	font-size: 12px;
 	font-weight: 600;
 	line-height: 1.8;
 	letter-spacing: -0.3px;
 	color: #222e37;
+	opacity: 0.54;
+}
+
+li.contact {
+	text-decoration: none;
+  	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.8;
+	letter-spacing: -0.3px;
+	color: #0077FF;
 	opacity: 0.54;
 }
 
@@ -76,9 +86,6 @@ ul.header-list li {
   text-decoration: none;
 }
 
-li a: last-child {
-  color: #0077FF;
-}
 
 /*! Header div */
 div.header {
