@@ -76,7 +76,7 @@ ul.header-list li {
   text-decoration: none;
 }
 
-ul < li a {
+li a: last-child {
   color: #0077FF;
 }
 
