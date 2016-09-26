@@ -22,8 +22,8 @@ a {
 	opacity: 0.54;
 }
 
-a:hover {
-  opacity: 1; !important;
+.header-list:hover {
+  opacity: 1; 
 }
 
 /*!-- add for image?
