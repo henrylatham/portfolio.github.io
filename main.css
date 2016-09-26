@@ -93,7 +93,7 @@ ul < li {
   vertical-align: middle;
 }
 
-div.BackTracker {
+#BackTracker {
   top: 370px;
   width: 100%;
 }
