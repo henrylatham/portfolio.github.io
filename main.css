@@ -12,23 +12,13 @@ p {
    text-align: left;
 }
 
-li.workabout {
+li a {
   	text-decoration: none;
   	font-size: 12px;
 	font-weight: 600;
 	line-height: 1.8;
 	letter-spacing: -0.3px;
 	color: #222e37;
-	opacity: 0.54;
-}
-
-li.contact {
-	text-decoration: none;
-  	font-size: 12px;
-	font-weight: 600;
-	line-height: 1.8;
-	letter-spacing: -0.3px;
-	color: #0077FF;
 	opacity: 0.54;
 }
 
@@ -101,6 +91,10 @@ img.header {
   padding:22px 19px 22px 19px;
 }
 
+.contact-list-item {
+	color: #0077ff;
+	opacity: 0.54;
+}
 
 /*! Intro section */
 
