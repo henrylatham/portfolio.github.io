@@ -112,4 +112,12 @@ ul.intro-list {
     	list-style: none;
 	/*! This means the list isn't moved over to the right */
 	padding-left: 0;
+	padding-top: 144px;
 }
+
+ul.intro-list li h1 {
+	margin-top: 0px;
+    	padding-top: 16px;
+}
+
+
