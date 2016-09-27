@@ -159,13 +159,15 @@ ul .post-inline-block{
 	
 footer {
 	max-width:640;
-	margin: auto;
+	height: 100px;
+	background-color: #ffffff;
+	margin: 0 auto;
 	position: relative;
 	bottom:0;
 	}
 
 	
-.footer-icons {
+li .footer-icons {
  	float: right;
   	margin: 8px;
 	list-style: none;
