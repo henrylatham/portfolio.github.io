@@ -146,10 +146,9 @@ ul.intro-list li h3 {
   	margin: auto; 
   	min-width: 50%;
   	min-height: 50%;*/
-	
-}
 
-.post-text-padding {
+
+div.post-text-padding {
 	padding-top: 48px;
 	max-width: 680px;
     	margin: auto;
