@@ -61,7 +61,7 @@ li a:hover {
 }
 
 a img:hover {
-	opacity: 0.9;
+	opacity: 0.95;
 }
 
 
@@ -147,7 +147,15 @@ a.read-more {
     	vertical-align: middle;
     	padding-left: 16px;
     	margin: 0px;
+	text-decoration: none;
+	opacity: 0.54;
+	color: #0077ff;
 }
+
+a.read-more:hover {
+  opacity: 1; 
+}
+
 
 h3.post-subtitle {
 	margin: 0;
@@ -155,37 +163,9 @@ h3.post-subtitle {
 }
 
 
-/*!
-.post-description {
-	margin-top: 70px;
-	margin:0 auto;
-	max-width: 680px;
-}
 
-/*!
-ul.post-inline-block {
-	list-style: none;
-    	padding-left: 0px;
-    	display: inline-block;
-	margin:0px;
-}
-
-li h1.post-title {   
-	margin: 0px;
-    	float: left;
-}
-
-li a.read-more {
-	float: right;
-    	padding-left: 16px;
-}
-
-h3.post-subtitle {
-	margin-top: 0px;
-}
-
-/*! edit post-preview within a post page to .post-image {
+/*! Change post-preview within a post page to .post-image (as the margin-top is different) {
 	margin-top: 280px;
 }
 
-vertical-align: middle
+
