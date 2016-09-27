@@ -13,31 +13,9 @@ p {
   	line-height: 2.4px;
 	letter-spacing: 0.19px;
    	max-width: 600px;
-   	margin: auto;
-   	text-align: left;
 }
 
-/*! Need to re-code this to make the header interactive. The opacity and hover change based on which page you are on */
-
-li a {
-  	text-decoration: none;
-  	font-size: 12px;
-	font-weight: 600;
-	line-height: 1.8;
-	letter-spacing: -0.3px;
-	color: #222e37;
-	opacity: 0.54;
-}
-
-li a:hover {
-  opacity: 1; 
-}
-
-a img:hover {
-	opacity: 0.54;
-}
-
-
+/*! ------------------ TYPOGRAPHY ----------------*/
 
 h1{
   font-size: 65px;
@@ -69,8 +47,22 @@ h5 {
 
 
 
-/*! Header list items */
-/*! img and li options */
+/*! Links */
+
+li a {
+  	text-decoration: none;
+	opacity: 0.54;
+}
+
+li a:hover {
+  opacity: 1; 
+}
+
+a img:hover {
+	opacity: 0.9;
+}
+
+
 
 ul.header-list {
   float: right;
@@ -79,11 +71,16 @@ ul.header-list {
 }
 
 ul.header-list li {
-  display: inline-block;
-  list-style: none;
-  padding: 8px;
-  margin: 8px 17px 8px 17px;
-  text-decoration: none;
+  	display: inline-block;
+  	list-style: none;
+  	padding: 8px;
+  	margin: 8px 17px 8px 17px;
+  	text-decoration: none;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.8;
+	letter-spacing: -0.3px;
+	color: #222e37;
 }
 
 .header {
@@ -104,97 +101,7 @@ img.logo {
 	color: #0077ff;
 	}
 
+
 /*! Intro section - Henry Latham, UX/UI Designer */
-
-.intro-list {
-  	text-align: center;
-	left:50%;
-  	width: 680ox;
- 	height: 681px;
-  /*!display: block;
-  position: relative;*/
-	}
-
-.intro-image {
-    	top: 185px;
-	/*!display: block;
-    	margin-left: auto;
-    	margin-right: auto*/
-	}
-
-.intro-image, .intro-text {
-  /*!position: relative;
-  display: block;*/
-	}
-
-.intro-text {
-	/*!margin-top: 190px;*/
-	}
-
-
-/*! Post layout e.g. BackTracker */
-
-.post {
-      	/*!position:relative;
-	display: block;*/
-      	height: 409px;
-      	width: 680px;
-      	margin: 0 auto;
-	}
-
-.post-preview {
-      width: 100%;
-	}
-
-@media screen and (max-width: 1024px) {
-      .post-preview {
-         width: 100%;
-        /*! overflow: hidden;*/
-         margin: 0;
-	}
-	
-/*! Post title & sub-heading */
-ul.post-inline-block{
-	/*!display: inline-block;*/
-	padding-left: 27px;
-	text-decoration: none;
-	list-style-type: none;
-	}
-
-	
-
-/*! Footer section */
-
-ul.footer-icons {
-  float: right;
-  padding-right: 24px;
-  margin: auto;
-}
-
-.footer-icons {
-  display: inline-block;
-  list-style: none;
-  padding-right: 8px;
-  margin: 8px;
-  text-decoration: none;
-}
-
-.copyright {
-  	padding: 32px 24px 32px 24px;
-  	text-decoration: none;
-	float: left;
-	}
-
-.footer {
-    	width: 680px;
-	height: 100px;
-    	background-color: #ffffff;
-	padding: 0px;
-	bottom: 0;
-	position: relative;
-	}	
-
-/*! Add padding right for LI*/
-
 
 
