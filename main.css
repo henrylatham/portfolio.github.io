@@ -131,6 +131,9 @@ ul.intro-list li h3 {
 .post-preview {
 	margin-top: 280px;
 }
+.post-text-padding {
+	padding-top: 50px;
+}
 
 h1.post-title {
 	max-width: 650px;
