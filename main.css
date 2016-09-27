@@ -132,6 +132,24 @@ ul.intro-list li h3 {
 	margin-top: 280px;
 }
 
+h1.post-title {
+	max-width: 650px;
+    	margin: auto;
+    	display: inline-block;
+    	vertical-align: middle;
+}
+
+a.read-more {
+	display: inline-block;
+    	vertical-align: middle;
+    	padding-left: 16px;
+    	margin: 0px;
+}
+
+h3.post-subtitle {
+	margin: 0;
+    	padding-top: 16px;
+}
 
 
 /*!
