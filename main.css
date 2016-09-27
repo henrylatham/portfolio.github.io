@@ -158,16 +158,12 @@ ul .post-inline-block{
 /*! Footer section */
 	
 footer {
-	width:640;
-	height:100px;
-	/*!
-	position:relative;
+	max-width:640;
+	margin: auto;
+	display: inline-block;
+  	list-style: none;
+	position:fixed;
 	bottom:0;
-	display: inline;*/
-	
-	max-width: 680px;
-    	left: 50%;
-	right: 50%;
 	}
 
 	
@@ -179,7 +175,7 @@ ul.footer-icons {
 	}
 
 .copyright {
-  /*!display: inline;*/
-  padding: 32px 24px 32px 24px;
-  text-decoration: none;
-}
+  	padding: 32px 24px 32px 24px;
+  	text-decoration: none;
+	float: left;
+	}
