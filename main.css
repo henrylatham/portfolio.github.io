@@ -113,3 +113,7 @@ ul.intro-list {
 	/*! This means the list isn't moved over to the right */
 	padding-left: 0;
 }
+
+.intro-header {
+	padding top: 144px;
+}
