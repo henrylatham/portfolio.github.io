@@ -16,6 +16,8 @@ p {
    text-align: left;
 }
 
+/*! Need to re-code this to make the header interactive. The opacity and hover change based on which page you are on */
+
 li a {
   	text-decoration: none;
   	font-size: 12px;
