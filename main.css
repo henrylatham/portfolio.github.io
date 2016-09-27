@@ -139,6 +139,7 @@ ul.post-inline-block {
 	list-style: none;
     	padding-left: 0px;
     	display: inline-block;
+	margin:0px;
 }
 
 li h1.post-title {   
@@ -152,6 +153,9 @@ li a.read-more {
     	padding-left: 16px;
 }
 
+h3.post-subtitle {
+	margin-top: 0px;
+}
 
 /*! edit post-preview within a post page to .post-image {
 	margin-top: 280px;
