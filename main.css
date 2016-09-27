@@ -160,19 +160,21 @@ ul .post-inline-block{
 footer {
 	max-width:640;
 	margin: auto;
-	display: inline-block;
-  	list-style: none;
-	position:fixed;
+	position: relative;
 	bottom:0;
 	}
 
 	
-ul .footer-icons {
+.footer-icons {
  	float: right;
-  	padding-right: 24px;
-  	margin: auto;
+  	margin: 8px;
 	list-style: none;
+	display: inline-block;
+  	list-style: none;
 	}
+	
+/*! Add padding right for LI*/
+
 
 .copyright {
   	padding: 32px 24px 32px 24px;
