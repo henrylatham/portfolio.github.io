@@ -133,7 +133,7 @@ ul.intro-list li h3 {
 /*! ----------------------------------- BackTracker ------------------------------------ */
 
 .post-preview {
-	margin-top: 280px;
+	padding-top: 280px;
 	margin: 0;
 	padding: 0px;
     	width: 100%;
