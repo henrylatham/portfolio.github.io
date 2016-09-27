@@ -22,9 +22,13 @@ p {
    	max-width: 600px;
 }
 
+/*! Edit other h1 tags on page for convention */
+
 h1{
   	font-size: 65px;
-  	letter-spacing: 0.2px;
+	font-weight: 300;
+	line-height: 1.2;
+	letter-spacing: 0.2px;
 }
 
 h2 {
@@ -35,7 +39,8 @@ h2 {
 
 h3{
   	font-size: 22px;
-  	letter-spacing: 0.35px;
+	line-height: 1.3;
+	letter-spacing: 0.3px;
   	opacity: 0.54;
 }
 
@@ -150,8 +155,8 @@ ul.intro-list li h3 {
     	max-width: 100%;	
 }
 
-div.post-text-padding {
-	padding-top: 48px;
+.post-text-padding {
+	padding-top: 20px;
 	max-width: 680px;
     	margin: auto;
 }
