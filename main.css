@@ -156,32 +156,38 @@ ul.post-inline-block{
 	}
 
 	
-	
+
 /*! Footer section */
-	
-.footer {
-	max-width:640;
-	height: 100px;
-	background-color: #ffffff;
-	margin: 0 auto;
-	position: relative;
-	bottom:0;
-	}
 
-	
+ul.footer-icons {
+  float: right;
+  padding-right: 24px;
+  margin: auto;
+}
+
 ul.footer-icons li {
- 	float: right;
-  	margin: 8px;
-	list-style: none;
-	display: inline-block;
-  	list-style: none;
-	}
-	
-/*! Add padding right for LI*/
-
+  display: inline-block;
+  list-style: none;
+  padding-right: 8px;
+  margin: 8px;
+  text-decoration: none;
+}
 
 .copyright {
   	padding: 32px 24px 32px 24px;
   	text-decoration: none;
 	float: left;
 	}
+
+.footer {
+    	max-width: 680px;
+    	background-color: #ffffff;
+	padding: 0px;
+	bottom: 0;
+	position: relative;
+	}	
+
+/*! Add padding right for LI*/
+
+
+
