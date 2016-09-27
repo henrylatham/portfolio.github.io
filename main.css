@@ -148,7 +148,7 @@ img.logo {
 	}
 	
 /*! Post title & sub-heading */
-ul .post-inline-block{
+ul.post-inline-block{
 	/*!display: inline-block;*/
 	padding-left: 27px;
 	text-decoration: none;
@@ -169,7 +169,7 @@ footer {
 	}
 
 	
-li .footer-icons {
+li.footer-icons {
  	float: right;
   	margin: 8px;
 	list-style: none;
