@@ -99,10 +99,11 @@ img.logo {
 
 /*! Intro section - Henry Latham, UX/UI Designer */
 
-.intro-container {
-  text-align: center;
-  width: 100%;
-  height: 681px;
+.intro-list {
+  	text-align: center;
+	left:50%;
+  	width: 680ox;
+ 	height: 681px;
   /*!display: block;
   position: relative;*/
 	}
