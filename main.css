@@ -134,12 +134,14 @@ ul.intro-list li h3 {
 
 .post-preview {
 	margin-top: 280px;
+	margin: 0;
+	padding: 0px;
     	width: 100%;
-    	height: 200px;
-    	max-height: 240px;
+    	height: 682px;
+    	max-height: 682px;
     	overflow: hidden;
-    	margin: 0;
     	position: relative;
+	
 }
 
 .post-preview img {  
@@ -158,6 +160,7 @@ h1.post-title {
     	display: inline-block;
     	vertical-align: middle;
 	padding-left: 32px;
+	margin: 0;
 }
 
 a.read-more {
