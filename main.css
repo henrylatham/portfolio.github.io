@@ -133,11 +133,11 @@ ul.intro-list li h3 {
 }
 .post-text-padding {
 	padding-top: 50px;
+	max-width: 650px;
+    	margin: auto;
 }
 
 h1.post-title {
-	max-width: 650px;
-    	margin: auto;
     	display: inline-block;
     	vertical-align: middle;
 }
