@@ -180,7 +180,8 @@ ul.footer-icons li {
 	}
 
 .footer {
-    	max-width: 680px;
+    	width: 680px;
+	height: 100px;
     	background-color: #ffffff;
 	padding: 0px;
 	bottom: 0;
