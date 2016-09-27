@@ -165,7 +165,7 @@ ul.footer-icons {
   margin: auto;
 }
 
-ul.footer-icons li {
+.footer-icons {
   display: inline-block;
   list-style: none;
   padding-right: 8px;
