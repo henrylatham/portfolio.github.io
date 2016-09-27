@@ -93,6 +93,7 @@ ul.header-list li {
     	max-width: 680px;
     	margin:0 auto;
 	padding: 0px;
+	padding-top: 22px;
 	}
 
 img.logo {
@@ -133,23 +134,19 @@ ul.intro-list li h3 {
 
 .post-preview {
 	margin-top: 280px;
-  	/*!position: fixed; 
-  	top: -50%; 
-  	left: -50%; 
-  	width: 200%; 
-  	height: 200%;*/
+    	width: 100%;
+    	height: 200px;
+    	max-height: 240px;
+    	overflow: hidden;
+    	margin: 0;
+    	position: relative;
 }
 
-/*!.post-preview img {  
-	position: absolute; 
-  	top: 0; 
-  	left: 0; 
-  	right: 0; 
-  	bottom: 0; 
-  	margin: auto; 
-  	min-width: 50%;
-  	min-height: 50%;*/
-
+.post-preview img {  
+    position:absolute;
+    vertical-align: middle;
+    max-width: 100%;
+}
 
 div.post-text-padding {
 	padding-top: 48px;
