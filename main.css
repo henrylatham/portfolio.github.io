@@ -106,3 +106,8 @@ img.logo {
 
 /*! ----------------------------------- Henry Latham etc. ------------------------------------ */
 
+ul.intro-list {
+	display: inline-block;
+    	text-align: center;
+    	list-style: none;
+}
