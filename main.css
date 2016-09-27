@@ -159,7 +159,7 @@ ul.post-inline-block{
 	
 /*! Footer section */
 	
-footer {
+.footer {
 	max-width:640;
 	height: 100px;
 	background-color: #ffffff;
@@ -169,7 +169,7 @@ footer {
 	}
 
 	
-li.footer-icons {
+ul.footer-icons li {
  	float: right;
   	margin: 8px;
 	list-style: none;
