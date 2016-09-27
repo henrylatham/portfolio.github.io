@@ -11,6 +11,7 @@ html, body {
 
 /*! ----------------------------------- Typography ------------------------------------ */
 
+
 p {
    	font-size: 20px;
   	line-height: 2.4px;
@@ -19,8 +20,8 @@ p {
 }
 
 h1{
-  font-size: 65px;
-  letter-spacing: 0.2px;
+  	font-size: 65px;
+  	letter-spacing: 0.2px;
 }
 
 h2 {
@@ -30,10 +31,9 @@ h2 {
 }
 
 h3{
-  font-size: 22px;
-  letter-spacing: 0.35px;
-  opacity: 0.54;
-}
+  	font-size: 22px;
+  	letter-spacing: 0.35px;
+  	opacity: 0.54;
 }
 
 h4, {
@@ -53,6 +53,7 @@ h5 {
 li a {
   	text-decoration: none;
 	opacity: 0.54;
+	color: #222e37;
 }
 
 li a:hover {
@@ -105,26 +106,3 @@ img.logo {
 
 /*! ----------------------------------- Henry Latham etc. ------------------------------------ */
 
-.intro-list {
-    float:right;
-    position:relative;
-    left:-50%;
-    text-align:center;
-}
-ul.intro-list {
-    list-style:none;
-    position:relative;
-    left:50%;
-}
-
-ul.intro-list li{
-	float:left;
-	position:relative;
-}/* ie needs position:relative here*/
-
-.intro-list a{
-    text-decoration:none;
-    float:left;
-    text-align:center;
-    white-space:nowrap;
-}
