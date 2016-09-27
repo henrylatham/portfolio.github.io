@@ -3,9 +3,10 @@
 }
 
 html, body {
-  font-family: 'Open Sans', sans-serif;
-  color: #222E37;
-  background-color: #ffffff;
+  	font-family: 'Open Sans', sans-serif;
+  	color: #222E37;
+  	background-color: #ffffff;
+	width: 1024px;
 }
 
 /*! ----------------------------------- Typography ------------------------------------ */
