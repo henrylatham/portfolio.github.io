@@ -133,7 +133,6 @@ ul.intro-list li h3 {
 /*! ----------------------------------- BackTracker ------------------------------------ */
 
 .post-preview {
-	margin-top: 280px;
 	margin: 0;
 	padding: 0px;
     	width: 100%;
@@ -145,9 +144,10 @@ ul.intro-list li h3 {
 }
 
 .post-preview img {  
-    position:absolute;
-    vertical-align: middle;
-    max-width: 100%;
+    	padding-top: 280px;
+	position:absolute;
+    	vertical-align: middle;
+    	max-width: 100%;	
 }
 
 div.post-text-padding {
