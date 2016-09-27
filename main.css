@@ -6,7 +6,6 @@ html, body {
   	font-family: 'Open Sans', sans-serif;
   	color: #222E37;
   	background-color: #ffffff;
-	width: 1024px;
 	margin: 0px;
 }
 
@@ -131,6 +130,7 @@ ul.intro-list li h3 {
 
 .post-preview {
 	margin-top: 280px;
+	position: relative;
 }
 .post-text-padding {
 	padding-top: 50px;
