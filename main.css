@@ -80,10 +80,11 @@ ul.header-list li {
   text-decoration: none;
 }
 
-div.header {
+.header {
     max-width: 680px;
     margin:0 auto;
     background-color: #ffffff;
+	padding: 0px;
 	}
 
 img.logo {
