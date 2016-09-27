@@ -87,10 +87,7 @@ ul.header-list li {
 .header {
     	max-width: 680px;
     	margin:0 auto;
-    	background-color: #ffffff;
 	padding: 0px;
-	border: 1px;
-	border-color: #000000;
 	}
 
 img.logo {
@@ -107,4 +104,26 @@ img.logo {
 
 /*! ----------------------------------- Henry Latham etc. ------------------------------------ */
 
+.intro-list {
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:center;
+}
+ul.intro-list {
+    list-style:none;
+    position:relative;
+    left:50%;
+}
 
+ul.intro-list li{
+	float:left;
+	position:relative;
+}/* ie needs position:relative here*/
+
+.intro-list a{
+    text-decoration:none;
+    float:left;
+    text-align:center;
+    white-space:nowrap;
+}
