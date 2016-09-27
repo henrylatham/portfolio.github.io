@@ -131,7 +131,7 @@ ul.intro-list li h3 {
 }
 
 
-/*! ----------------------------------- BackTracker ------------------------------------ */
+/*! ----------------------------------- Post Previews ------------------------------------ */
 
 .post-preview {
 	margin: 0;
@@ -182,6 +182,7 @@ h3.post-subtitle {
 	margin: 0;
     	padding-top: 16px;
 	padding-left:37px;
+	padding-bottom: 220px;
 }
 
 
