@@ -110,4 +110,6 @@ ul.intro-list {
 	display: inline-block;
     	text-align: center;
     	list-style: none;
+	/*! This means the list isn't moved over to the right */
+	padding-left: 0;
 }
