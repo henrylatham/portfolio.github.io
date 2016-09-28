@@ -289,6 +289,16 @@ h2.view-post-section-heading {
 
 /*! ----------------------------------- Next Post Button ------------------------------------ */
 
+hr.long-line {
+	max-width: 500px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 120px;
+	height: 1px;
+	border: solid 1px #222E37;
+	opacity: 0.34;
+}
+
 h2.next-post-btn {
 }
 
