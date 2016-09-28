@@ -239,8 +239,7 @@ li.linkedin {
 }
 
 h1.view-post-title {
-    	display: inline-block;
-    	vertical-align: middle;
-	padding-left: 32px;
-	margin: 0;
+}
+
+h3.view-post-subtitle {
 }
