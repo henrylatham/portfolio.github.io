@@ -293,7 +293,7 @@ h2.view-post-section-heading {
     	height: 782px;
     	max-height: 782px;
     	overflow: hidden;
-	position:absolute;
+	position:relative;
     	vertical-align: middle;
     	max-width: 100%;
 }
