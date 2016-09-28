@@ -299,7 +299,10 @@ h2.view-post-section-heading {
 }
 
 .iphone6-display-white {
-	/*!position: absolute;
+	/*!position:absolute;
+    	vertical-align: middle;
+    	max-width: 100%;	
+	position: absolute;
     	top: calc(1200px - 895px - 5%);
     	width: 100%;
 	margin-left: auto;
