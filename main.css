@@ -21,6 +21,8 @@ p {
 	letter-spacing: 0.19px;
    	max-width: 600px;
 	opacity: 0.54;
+	margin: 0;
+	padding-bottom: 24px;
 
 }
 
@@ -266,8 +268,11 @@ h2.view-post-section-heading {
 }
 
 .description {
-	padding-top: 16px;
+	padding-top: 30px;
+	padding-left: 80px;
 }
+
+
 
 
 
