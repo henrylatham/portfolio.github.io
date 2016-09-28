@@ -252,11 +252,24 @@ h3.view-post-subtitle {
 
 /*! Image CSS same as homepage */
 
-.content-width {
+.problem-ideation-execution, .description {
 	max-width: 680px;
     	margin: auto;
 }
 
+h2.view-post-section-heading {
+	margin: 0;
+	padding-left: 80px;
+}
+
+
+
+
+
+/*! ----------------------------------- Next Post Button ------------------------------------ */
+
+h2.next-post-btn {
+}
 
 
 
