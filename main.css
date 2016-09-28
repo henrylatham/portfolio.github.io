@@ -17,14 +17,16 @@ html, body {
 
 p {
    	font-size: 20px;
-  	line-height: 2.4px;
+  	line-height: 24px;
 	letter-spacing: 0.19px;
    	max-width: 600px;
+	opacity: 0.54;
+
 }
 
 /*! Edit other h1 tags on page for convention */
 
-h1{
+h1 {
   	font-size: 65px;
 	font-weight: 300;
 	line-height: 1.2;
@@ -260,6 +262,11 @@ h3.view-post-subtitle {
 h2.view-post-section-heading {
 	margin: 0;
 	padding-left: 80px;
+	padding-top: 70px;
+}
+
+.description {
+	padding-top: 16px;
 }
 
 
