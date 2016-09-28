@@ -232,13 +232,13 @@ li.linkedin {
 
 /*! ----------------------------------- BackTracker-Title ------------------------------------ */
 
-.post-text-padding {
+.view-post-description {
 	padding-top: 20px;
 	max-width: 680px;
     	margin: auto;
 }
 
-h1.post-title {
+h1.view-post-title {
     	display: inline-block;
     	vertical-align: middle;
 	padding-left: 32px;
