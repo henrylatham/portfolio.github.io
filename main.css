@@ -60,7 +60,7 @@ h5 {
 }
 
 /*! short line break in p */
-hr {
+hr.hr-short {
 	border-top: 1px solid #222E37;
 	opacity: 0.34;
 	margin-top: 10px;
