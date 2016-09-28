@@ -307,6 +307,12 @@ h5.next-project {
 
 a.next-post-btn {
 	text-decoration: none;
+	opacity: 0.54;
+	color: #0077ff;
+}
+
+a.next-post-btn: hover {
+	opacity: 1;
 }
 
 h2.next-post-btn {
