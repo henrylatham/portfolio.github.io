@@ -320,7 +320,7 @@ h2.next-post-btn {
 	opacity: 0.54;
 }
 
-h2.next-post-btn: hover {
+a.next-post-btn: hover {
 	opacity: 1;
 }
 
