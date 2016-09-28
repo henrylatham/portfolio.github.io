@@ -233,13 +233,30 @@ li.linkedin {
 /*! ----------------------------------- BackTracker-Title ------------------------------------ */
 
 .view-post-description {
-	padding-top: 20px;
+	padding-top: 150px;;
 	max-width: 680px;
     	margin: auto;
 }
 
 h1.view-post-title {
+	margin: 0;
+    	padding-left: 74px;
 }
 
 h3.view-post-subtitle {
+	margin: 0px;
+    	padding-top: 16px;
+    	padding-left: 80px;
+	padding-bottom: 150px;
 }
+
+/*! Image CSS same as homepage */
+
+.content-width {
+	max-width: 680px;
+    	margin: auto;
+}
+
+
+
+
