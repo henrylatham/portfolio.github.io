@@ -305,7 +305,16 @@ h5.next-project {
     	text-align: center;
 }
 
+a.next-post-btn {
+	text-decoration: none;
+}
+
 h2.next-post-btn {
+	max-width: 650px;
+    	margin: 0 auto;
+    	margin-top: 16px;
+    	display: block;
+    	text-align: center;
 }
 
 
