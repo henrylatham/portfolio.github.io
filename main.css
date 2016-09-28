@@ -60,10 +60,12 @@ h5 {
 }
 
 /*! short line break in p */
-.hr-short {
+hr {
 	border-top: 1px solid #222E37;
-  	max-width: 10px;
 	opacity: 0.34;
+	margin-top: 6px;
+    	margin-bottom: 30px;
+    	max-width: 10px;
 }
 
 
