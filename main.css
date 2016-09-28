@@ -276,10 +276,15 @@ h2.view-post-section-heading {
 	padding-top: 70px;
 }
 
+
+/*! ----------------------------------- Content - Paragraphs & Photos ------------------------------------ */
+
 .description {
 	padding-top: 30px;
 	padding-bottom: 120px;
 }
+
+/*! ----------------------------------- Content - Videos ------------------------------------ */
 
 .video-background {
 	margin: 0;
@@ -294,8 +299,6 @@ h2.view-post-section-heading {
 }
 
 .iphone6-display-white {
-	height: 1776px;
-	width: 871px;
 	/*!position: absolute;
     	top: calc(1200px - 895px - 5%);
     	width: 100%;
