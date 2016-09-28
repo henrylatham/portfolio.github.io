@@ -288,12 +288,14 @@ h2.view-post-section-heading {
     	height: 782px;
     	max-height: 782px;
     	overflow: hidden;
-    	position: relative;
+	position:absolute;
+    	vertical-align: middle;
+    	max-width: 100%;
 }
 
 .iphone6-display-white {
-	max-height: 1776px;
-	max-width: 871px;
+	height: 1776px;
+	width: 871px;
 	/*!position: absolute;
     	top: calc(1200px - 895px - 5%);
     	width: 100%;
@@ -305,6 +307,11 @@ h2.view-post-section-heading {
 
 video.mp4-iphone6-screen {
 }
+
+
+	
+}
+
 
 /*! ----------------------------------- Next Post Button ------------------------------------ */
 
