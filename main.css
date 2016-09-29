@@ -119,12 +119,8 @@ img.logo {
   	height: 56px;
   	width: 56px;
   	padding:0px 19px 4px 19px;
-	opacity: 1;
 	}
 
-img.logo {
-	opacity: 0.9;
-}
 
 .contact-list-item {
 	color: #0077ff;
