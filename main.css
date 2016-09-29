@@ -286,6 +286,7 @@ h2.view-post-section-heading {
 
 /*! ----------------------------------- Content - Videos ------------------------------------ */
 
+/*!
 .video-background {
 	margin: 0;
 	padding: 0px;
@@ -296,7 +297,7 @@ h2.view-post-section-heading {
 	position:relative;
     	vertical-align: middle;
     	max-width: 100%;
-}
+}*/
 
 .iphone6-display-white {
 	/*!position:absolute;
@@ -313,11 +314,7 @@ h2.view-post-section-heading {
 
 video.mp4-iphone6-screen {
 }
-
-
 	
-}
-
 
 /*! ----------------------------------- Next Post Button ------------------------------------ */
 
