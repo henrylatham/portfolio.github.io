@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="22px" viewBox="0 0 30 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>mailIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-Portrait" transform="translate(-677.000000, -4375.000000)">
+            <g id="footer" transform="translate(44.000000, 4354.000000)">
+                <g id="mailIcon" transform="translate(624.000000, 8.000000)">
+                    <rect id="Rectangle-8" x="0" y="0" width="48" height="48"></rect>
+                    <path d="M9.89988601,14.3608218 C10.405277,13.5482037 11.3384045,13 12.4,13 L35.6,13 C36.3681755,13 37.0690848,13.2870416 37.5893401,13.753602 L24,22.625 L9.89988601,14.3608218 Z M9.5,16.9607122 L9.5,32.25 C9.5,33.7625 10.805,35 12.4,35 L35.6,35 C37.195,35 38.5,33.7625 38.5,32.25 L38.5,15.9678619 L24.5319737,25.0298724 L24,25.375 L23.5801714,25.1313753 L9.5,16.9607122 Z" id="Shape" fill="#0077FF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
