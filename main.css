@@ -229,17 +229,16 @@ ul.footer-icons {
 li.dribbble {
 	display: inline-block;
     	padding: 9px;
-	opacity: 1;
 }
 
 li.linkedin {
 	display: inline-block;
     	padding: 9px;
-	opacity: 1;
 }
 
-li.dribbble, li.linkedin:hover {
-	opacity: 0.7
+li.mail {
+	display: inline-block;
+    	padding: 9px;
 }
 
 /*! ------------------------------------------------ BACKTRACKER ----------------------------------------------------------------------- */
