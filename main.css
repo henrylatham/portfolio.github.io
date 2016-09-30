@@ -343,6 +343,9 @@ h2.view-post-section-heading {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position-x: center;
+	
+	/*! add z-index: 10 */
+	
 }
 
 /*! for small screen 
@@ -354,22 +357,12 @@ h2.view-post-section-heading {
 }*/
 
 .iphone6-display {
-	/*!position:absolute;
-    	vertical-align: middle;
-    	max-width: 100%;	
-	position: absolute;
-    	top: calc(1200px - 895px - 5%);
-    	width: 100%;
-	margin-left: auto;
-    	margin-right: auto;
-    	padding: 2em 0;
-	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.16), 0 4px 10px 0 rgba(0, 0, 0, 0.26);*/
 }
 
 .post-preview-embed-video {
 }
 
-video.mp4-iphone6-screen {
+video {
 }
 	
 
