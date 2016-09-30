@@ -305,33 +305,33 @@ h2.view-post-section-heading {
 
 
 .video-post-preview {
-	margin: 0;
-	padding: 0px;
-    	width: 100%;
-    	height: 782px;
-    	max-height: 782px;
     	position: relative;
 	/*! These two hide any content outside of the div's boundaries and aligns content center */
 	overflow: hidden;
     	text-align: center;
 }
 
-.post-preview-bg {
-	position: absolute;
-    	/*! for large screen: just bg-image */
-	background-image: url(https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/LONDON_shutterstock_229478404--tojpeg_1417791048879_x1.jpg);
-    	/*! For smaller: add all this & sort h and w */
-	height: 782px;
-    	max-height: 782px;
-    	width: 1400px;
-    	max-width: 1200px;
-	background-size: contain;
-    	background-position: center;
-	background-repeat: no-repeat;
-	/*! moves it left then to the middle again - why is this here? */
-    	left: 50%;
-	transform: translateX(-50%);
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 30em), (min-resolution: 192dpi) and (min-width: 30em)
+.sketch-mirror__showcase__bg {
+    background-image: url(https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/LONDON_shutterstock_229478404--tojpeg_1417791048879_x1.jpg);
 }
+
+@media (min-width: 30em)
+.sketch-mirror__showcase__bg {
+    background-color: #fff;
+    background-image: url(https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/LONDON_shutterstock_229478404--tojpeg_1417791048879_x1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 1600px;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sketch-mirror__showcase__bg {
+    position: absolute;
 
 .post-preview-phone {
 	margin-left: auto;
