@@ -311,9 +311,9 @@ hr.long-line {
 	opacity: 0.34;
 }
 
-/*!
-.video-background {
-	margin: 0;
+
+.post-preview-bg {
+	/*!margin: 0;
 	padding: 0px;
     	width: 100%;
     	height: 782px;
@@ -321,10 +321,13 @@ hr.long-line {
     	overflow: hidden;
 	position:relative;
     	vertical-align: middle;
-    	max-width: 100%;
-}*/
+    	max-width: 100%;*/
+}
 
-.iphone6-display-white {
+.post-preview-phone {
+}
+
+img.iphone6-display-white {
 	/*!position:absolute;
     	vertical-align: middle;
     	max-width: 100%;	
@@ -335,6 +338,9 @@ hr.long-line {
     	margin-right: auto;
     	padding: 2em 0;
 	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.16), 0 4px 10px 0 rgba(0, 0, 0, 0.26);*/
+}
+
+.post-preview-phone-video {
 }
 
 video.mp4-iphone6-screen {
