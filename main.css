@@ -312,12 +312,12 @@ h2.view-post-section-heading {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 30em), (min-resolution: 192dpi) and (min-width: 30em)
-.sketch-mirror__showcase__bg {
+.post-preview-bg {
     background-image: url(https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/LONDON_shutterstock_229478404--tojpeg_1417791048879_x1.jpg);
 }
 
 @media (min-width: 30em)
-.sketch-mirror__showcase__bg {
+.post-preview-bg {
     background-color: #fff;
     background-image: url(https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/LONDON_shutterstock_229478404--tojpeg_1417791048879_x1.jpg);
     background-repeat: no-repeat;
@@ -330,7 +330,7 @@ h2.view-post-section-heading {
     transform: translateX(-50%);
 }
 
-.sketch-mirror__showcase__bg {
+.post-preview-bg {
     position: absolute;
 
 .post-preview-phone {
