@@ -322,14 +322,17 @@ h2.view-post-section-heading {
     	background-color: #fff;
     	background-image: url(https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/LONDON_shutterstock_229478404--tojpeg_1417791048879_x1.jpg);
     	background-repeat: no-repeat;
-    	background-size: contain;
+    	/*!
+	background-size: contain;
     	background-position: center;
+	*/
     	min-width: 1600px;
     	width: 100%;
     	height: 100%;
     	left: 50%;
     	transform: translateX(-50%);
 	position: absolute;
+	opacity: 0.54;
 }
 
 /*!
@@ -340,16 +343,7 @@ h2.view-post-section-heading {
 .post-preview-phone {
 	margin-left: auto;
     	margin-right: auto;
-    	padding: 4em 0;
-	background-image: url(https://awkward.co/assets/images/iphone6-silver.png);
-	height: 600px;
-	position: relative;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position-x: center;
-	
-	/*! add z-index: 10 */
-	
+	margin-top: 30px;
 }
 
 /*! for small screen 
@@ -361,6 +355,13 @@ h2.view-post-section-heading {
 }*/
 
 .iphone6-display {
+	/*!padding: 4em 0;*/
+	background-image: url(https://awkward.co/assets/images/iphone6-silver.png);
+	height: 600px;
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: center;	
 }
 
 .post-preview-embed-video {
