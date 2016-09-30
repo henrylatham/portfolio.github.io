@@ -223,7 +223,7 @@ h5.copyright {
 ul.footer-icons {
 	float: right;
     	list-style: none;
-    	padding-right: 24px;
+    	margin-right: 24px;
 }
 
 li.dribbble {
