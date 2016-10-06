@@ -12,6 +12,13 @@ html, body {
 	margin: 0px;
 }
 
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #63C7DB;
+    }
+}
+
+
 /*! ----------------------------------- Typography ------------------------------------ */
 
 
@@ -262,11 +269,6 @@ li.mail {
 
 /*! ----------------------------------- BackTracker-Title ------------------------------------ */
 
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: #63C7DB;
-    }
-}
 
 .view-post-description {
 	padding-top: 150px;;
