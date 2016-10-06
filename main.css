@@ -12,11 +12,6 @@ html, body {
 	margin: 0px;
 }
 
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: #63C7DB;
-    }
-}
 
 
 /*! ----------------------------------- Typography ------------------------------------ */
@@ -26,12 +21,21 @@ p {
    	font-size: 18px;
   	line-height: 1.4;
 	letter-spacing: 0.15px;
-   	max-width: 600px;
+   	max-width: 300px;
 	opacity: 0.54;
 	margin: 0;
 	padding-bottom: 24px;
-	padding-left: 80px;
+	padding-left: 16px;
+	padding-right: 16px;
 
+}
+
+@media only screen and (min-width: 650px) {
+	p {
+		max-width: 600px;
+		padding-left: 80px;
+	}
+	
 }
 
 /*! Edit other h1 tags on page for convention */
