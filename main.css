@@ -349,47 +349,44 @@ h3.view-post-subtitle {
 		padding-bottom: 150px;
 		margin: 0px;
 	}
+
+
 /*! Image CSS same as homepage */
 
-	
-.problem-ideation-execution, .description {
-	max-width: 300px;
-    	margin: auto;
-	padding-bottom: 24px;
-    	padding-top: 50px;
-}	
-	    
 
+/*! ----------------------------------- Content - Paragraphs & Photos ------------------------------------ */
+
+	    
 h2.view-post-section-heading {
 	margin: 0 auto;
-	padding-left: 16px;
 	padding-top: 50px;
+	padding-bottom: 24px;
 	max-width: 300px;
 	
 }
 
+.description {
+	padding-top: 8px;
+	padding-bottom: 120px;
+}
+
 @media only screen and (min-width: 650px) {
 	h2.view-post-section-heading {
-		margin: 0;
+		margin: 0 auto;
 		padding-left: 80px;
 		padding-top: 70px;
 	}
-	.problem-ideation-execution, .description {
+	
+	.description {
 		max-width: 680px;
-		margin: auto;
-		padding-bottom: 24px;
-		padding-top: 70px;
+		margin: 0 auto;
+		padding-bottom: 120px;
+		padding-top: 16px;
 	}	
 	
 }
 
 
-/*! ----------------------------------- Content - Paragraphs & Photos ------------------------------------ */
-
-.description {
-	padding-top: 30px;
-	padding-bottom: 120px;
-}
 
 /*! ----------------------------------- Content - Videos ------------------------------------ */
 
@@ -466,7 +463,6 @@ h2.view-post-section-heading {
 }
 
 video {
-	height: 450px;
     	padding-top: 187px;
 }
 	
