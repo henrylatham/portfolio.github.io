@@ -125,6 +125,8 @@ ul.header-list {
     	margin-bottom: 0px;
     	margin-left: auto;
 	display: block;
+	padding: 0;
+    	text-align: center;
 
 }
 
@@ -150,7 +152,7 @@ ul.header-list li {
 img.logo {
   	height: 56px;
   	width: 56px;
-  	padding: 16px 0 0px 12px;
+  	padding: 16px 12px 0px 0px;
 	margin: 0 auto;
 	display: block;
 	}
@@ -174,6 +176,7 @@ img.logo {
 		float: right;
   		padding-right: 24px;
   		margin: auto;
+		
 	}
 }
 
