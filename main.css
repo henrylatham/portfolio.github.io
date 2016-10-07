@@ -351,10 +351,14 @@ h3.view-post-subtitle {
 	}
 /*! Image CSS same as homepage */
 
+	
 .problem-ideation-execution, .description {
-	max-width: 680px;
+	max-width: 300px;
     	margin: auto;
-}
+	padding-bottom: 24px;
+    	padding-top: 50px;
+}	
+	    
 
 h2.view-post-section-heading {
 	margin: 0 auto;
@@ -370,6 +374,12 @@ h2.view-post-section-heading {
 		padding-left: 80px;
 		padding-top: 70px;
 	}
+	.problem-ideation-execution, .description {
+		max-width: 680px;
+		margin: auto;
+		padding-bottom: 24px;
+		padding-top: 70px;
+	}	
 	
 }
 
