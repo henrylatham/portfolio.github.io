@@ -36,15 +36,24 @@ p {
 		padding-left: 80px;
 	}
 	
+	
+	h1 {
+	font-size: 65px;
+	font-weight: 300;
+	line-height: 1.4;
+	letter-spacing: 0.5px;
+	max-width: 600px;
+	}
 }
 
-/*! Edit other h1 tags on page for convention */
 
 h1 {
-  	font-size: 65px;
+  	font-size: 40px;
 	font-weight: 300;
 	line-height: 1.2;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.4px;
+	max-width: 300px;
+	margin: 0 auto;
 }
 
 h2 {
@@ -281,8 +290,15 @@ li.mail {
 }
 
 h1.view-post-title {
-	margin: 0;
-    	padding-left: 74px;
+	margin: 0 auto;
+	max-width: 300px;
+}
+
+@media only screen and (min-width: 650px) {
+	h1.view-post-title {
+		padding-left: 74px;
+		margin: 0;
+	}
 }
 
 h3.view-post-subtitle {
