@@ -209,15 +209,10 @@ ul.intro-list li h3 {
 	margin: 0;
 	padding: 0px;
     	width: 100%;
-    	height: 682px;
-    	max-height: 682px;
-    	overflow: hidden;
-    	position: relative;
 	
 }
 
 .post-preview img {  
-	position:absolute;
     	vertical-align: middle;
     	max-width: 100%;	
 }
@@ -364,7 +359,7 @@ h3.view-post-subtitle {
 h2.view-post-section-heading {
 	margin: 0 auto;
 	padding-left: 16px;
-	padding-top: 70px;
+	padding-top: 50px;
 	max-width: 300px;
 	
 }
@@ -373,6 +368,7 @@ h2.view-post-section-heading {
 	h2.view-post-section-heading {
 		margin: 0;
 		padding-left: 80px;
+		padding-top: 70px;
 	}
 	
 }
