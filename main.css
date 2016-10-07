@@ -318,8 +318,8 @@ li.mail {
 
 
 .view-post-description {
-	padding-top: 150px;;
-	max-width: 680px;
+	padding-top: 100px;
+	max-width: 300px;
     	margin: auto;
 }
 
@@ -332,6 +332,10 @@ h1.view-post-title {
 	h1.view-post-title {
 		padding-left: 74px;
 		margin: 0;
+	}
+	.view-post-description {
+		padding-top: 150px;
+		max-width: 680px;
 	}
 }
 
