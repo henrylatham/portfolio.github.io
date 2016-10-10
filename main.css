@@ -516,7 +516,7 @@ h2.view-post-section-heading {
     width: 100%;
 }
 
-@media (min-width: 30em)
+@media (min-width: 30em) {
 	.post-preview-bg {
 	    background-color: #fff;
 	    background-image: url(../BackTracker/BackTracker4-desktop.jpg);
@@ -531,7 +531,7 @@ h2.view-post-section-heading {
 	}
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 30em), (min-resolution: 192dpi) and (min-width: 30em)
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 30em), (min-resolution: 192dpi) and (min-width: 30em) {
 	.post-preview-bg {
     		background-image: url(../BackTracker/BackTracker4-hd.jpg);
 	}
