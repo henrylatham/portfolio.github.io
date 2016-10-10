@@ -604,11 +604,18 @@ video {
 /*! ----------------------------------- Next Post Button ------------------------------------ */
 
 hr.long-line {
-	max-width: 500px;
+	max-width: 300px;
 	margin-top: 120px;
 	height: 1px;
 	color: #222E37;
 	opacity: 0.34;
+}
+
+
+@media only screen and (min-width: 650px) {
+	hr.long-line {
+		max-width: 500px;
+	}
 }
 
 h5.next-project {
