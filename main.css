@@ -528,11 +528,13 @@ h2.view-post-section-heading {
 	    height: 100%;
 	    left: 50%;
 	    transform: translateX(-50%);
+	}
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 30em), (min-resolution: 192dpi) and (min-width: 30em)
 	.post-preview-bg {
-    background-image: url(../BackTracker/BackTracker4-hd.jpg);
+    		background-image: url(../BackTracker/BackTracker4-hd.jpg);
+	}
 }
 
 
