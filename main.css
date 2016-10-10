@@ -443,12 +443,13 @@ h2.view-post-section-heading {
 	padding-top: 50px;
 	padding-bottom: 24px;
 	max-width: 300px;
+	opacity: 1;
 	
 }
 
 .description {
-	padding-top: 8px;
-	padding-bottom: 120px;
+    	padding-top: 30px;
+    	padding-bottom: 70px;
 }
 
 @media only screen and (min-width: 650px) {
