@@ -288,6 +288,7 @@ h3.post-subtitle {
 
 @media only screen and (min-width: 650px) {
 	.intro-header {
+		max-width: 650px;
 	}
 	
 	.post-text-padding {
