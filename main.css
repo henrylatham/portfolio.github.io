@@ -514,7 +514,7 @@ h2.view-post-section-heading {
 .post-preview-bg {
     position: absolute;
     background-image: radial-gradient(circle at 50% 44%, #ffffff, #dbdbdb);
-    height: 75%;
+    height: 100%;
     width: 100%;
 }
 
@@ -606,9 +606,19 @@ video {
 	
 /*! ----------------------------------- Next Post Button ------------------------------------ */
 
+.next {
+	padding-top: 120px;
+}
+
+@media only screen and (min-width: 650px) {
+	.next {
+		padding-top: 0px;
+	}
+}
+	
+
 hr.long-line {
 	max-width: 300px;
-	margin-top: 120px;
 	height: 1px;
 	color: #222E37;
 	opacity: 0.34;
