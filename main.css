@@ -511,7 +511,7 @@ h2.view-post-section-heading {
 
 .post-preview-bg {
     position: absolute;
-    background-color: #f2f2f2;
+    background-image: radial-gradient(circle at 50% 44%, #ffffff, #dbdbdb);
     height: 100%;
     width: 100%;
 }
@@ -537,20 +537,35 @@ h2.view-post-section-heading {
 	}
 }
 
-
-/*!
-.post-preview-bg {
-    position: absolute;
-}
+/*! Video section */
 
 .post-preview-phone {
-	margin-left: auto;
+	width: 80%;
+    	margin-left: auto;
     	margin-right: auto;
-	margin-top: 30px;
+    	padding: 2em 0;
 }
 
-
 .iphone6-display {
+	position: relative;
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	background-position-x: center;
+}
+
+post-preview-embed-video {
+	width: 100%;
+}
+
+video {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+}
+
+/*!
+OLD .iphone6-display {
 	background-image: url(http://community.uxmastery.com/uploads/db4094/original/1X/b2235f688a6a5c0d83e187db8f53925346e392df.png);
 	height: 600px;
 	position: relative;
