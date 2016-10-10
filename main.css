@@ -353,14 +353,15 @@ footer {
 h5.copyright {
 	display: inline-block;
     	float: left;
-    	padding-left: 32px;
-	padding-top: 15px;
+    	padding-left: 12px;
+	padding-top: 10px;
 }
 
 ul.footer-icons {
 	float: right;
     	list-style: none;
-    	margin-right: 24px;
+    	margin-right: 16px;
+	padding-left: 0px;
 }
 
 li.dribbble {
@@ -380,6 +381,17 @@ li.mail {
 
 .mail svg {
 	padding-bottom: 3;
+}
+
+
+@media only screen and (min-width: 650px) {
+	h5.copyright {
+		padding-left: 32px;
+		padding-top: 15px;
+	}
+	ul.footer-icons {
+		margin-right: 24px;
+	}
 }
 
 /*! ------------------------------------------------ BACKTRACKER ----------------------------------------------------------------------- */
