@@ -534,12 +534,14 @@ h2.view-post-section-heading {
 	    height: 100%;
 	    left: 50%;
 	    transform: translateX(-50%);
+		opacity: 0.75;
 	}
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 30em), (min-resolution: 192dpi) and (min-width: 30em) {
 	.post-preview-bg {
     		background-image: url(../BackTracker/BackTracker4-hd.jpg);
+		opacity: 0.75;
 	}
 }
 
@@ -576,7 +578,6 @@ h2.view-post-section-heading {
 	.iphone6-display {
     		height: 895px;
 		background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/01/IPhone6_silver_frontface.png);
-		box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 	}
 }
 
@@ -599,7 +600,7 @@ video {
 	height: 100%;
     	width: 100%;
     	border-radius: 3px;
-	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	/*! box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26); */
 }
 
 	
