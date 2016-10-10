@@ -557,16 +557,16 @@ h2.view-post-section-heading {
 	position: relative;
     	background-size: contain;
     	background-repeat: no-repeat;
-    	background-position-x: center;
+    	background-position: center;
 }
 
 @media (min-width: 30em)
 .iphone6-display {
     	height: 895px;
-	background-image: url(../iphone6-display-white.png);
+	background-image: url(https://www.awkward.co/assets/images/iphone6-silver.png);
 }
 
-post-preview-embed-video {
+.post-preview-embed-video {
 	width: 100%;
 }
 
