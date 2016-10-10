@@ -546,11 +546,12 @@ h2.view-post-section-heading {
     	padding: 2em 0;
 }
 
-@media (min-width: 30em)
+@media (min-width: 30em) {
 .post-preview-phone {
-    position: absolute;
-    top: calc(1200px - 895px - 5%);
-    width: 100%;
+	    position: absolute;
+	    top: calc(1200px - 895px - 5%);
+	    width: 100%;
+	}
 }
 
 .iphone6-display {
@@ -560,10 +561,11 @@ h2.view-post-section-heading {
     	background-position: center;
 }
 
-@media (min-width: 30em)
-.iphone6-display {
+@media (min-width: 30em) {
+	.iphone6-display {
     	height: 895px;
 	background-image: url(https://www.awkward.co/assets/images/iphone6-silver.png);
+	}
 }
 
 .post-preview-embed-video {
