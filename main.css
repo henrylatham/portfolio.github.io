@@ -279,7 +279,8 @@ a.read-more:hover {
 h3.post-subtitle {
 	margin: 0;
     	padding-top: 12px;
-	padding-left:20px;
+	padding-bottom: 30px;
+	padding-left: 0px;
 	display: table-header-group;
 }
 
