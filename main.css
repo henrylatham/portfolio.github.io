@@ -471,6 +471,7 @@ h2.view-post-section-heading {
 	h2.view-post-section-heading {
 		padding-left: 0px;
 		margin: 0 auto;
+		max-width: 300px;
 	}
 }
 
