@@ -408,7 +408,9 @@ li.mail {
 .view-post-description {
 	padding-top: 100px;
 	max-width: 300px;
-    	margin: auto;
+    	margin: 0;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
 h1.view-post-title {
@@ -423,6 +425,8 @@ h1.view-post-title {
 	}
 	.view-post-description {
 		padding-top: 150px;
+		padding-left: 0px;
+		padding-right: 0px;
 		max-width: 680px;
 	}
 }
@@ -451,9 +455,9 @@ h3.view-post-subtitle {
 
 	    
 h2.view-post-section-heading {
+	padding-left: 16px;
 	margin: 0 auto;
 	padding-top: 50px;
-	padding-left: 16px;
 	max-width: 300px;
 	opacity: 1;
 	margin-left: 0px;
