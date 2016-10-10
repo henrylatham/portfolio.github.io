@@ -226,6 +226,11 @@ ul.intro-list li h3 {
 
 /*! ----------------------------------- Post Previews ------------------------------------ */
 
+.intro-header {
+	text-align: center;
+}
+
+
 .post-preview {
 	margin: 0;
 	padding: 0px;
@@ -282,6 +287,9 @@ h3.post-subtitle {
     	margin: 0 auto;
 
 @media only screen and (min-width: 650px) {
+	.intro-header {
+	}
+	
 	.post-text-padding {
 		padding-top: 20px;
 		max-width: 300px;
