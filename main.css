@@ -537,7 +537,7 @@ h2.view-post-section-heading {
 	}
 }
 
-/*! Video section */
+/*! -------------------------------------     Video section     ---------------------------------------- */
 
 .post-preview-phone {
 	width: 80%;
@@ -546,11 +546,24 @@ h2.view-post-section-heading {
     	padding: 2em 0;
 }
 
+@media (min-width: 30em)
+.post-preview-phone {
+    position: absolute;
+    top: calc(1200px - 895px - 5%);
+    width: 100%;
+}
+
 .iphone6-display {
 	position: relative;
     	background-size: contain;
     	background-repeat: no-repeat;
     	background-position-x: center;
+}
+
+@media (min-width: 30em)
+.iphone6-display {
+    	height: 895px;
+	background-image: url(../iphone6-display-white.png);
 }
 
 post-preview-embed-video {
