@@ -453,8 +453,10 @@ h3.view-post-subtitle {
 h2.view-post-section-heading {
 	margin: 0 auto;
 	padding-top: 50px;
+	padding-left: 16px;
 	max-width: 300px;
 	opacity: 1;
+	margin-left: 0px;
 	
 }
 
