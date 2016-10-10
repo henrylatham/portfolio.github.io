@@ -410,7 +410,7 @@ li.mail {
 .view-post-description {
 	padding-top: 100px;
 	max-width: 300px;
-    	margin: 0;
+    	margin: 0 auto;
 	padding-left: 16px;
 	padding-right: 16px;
 }
@@ -470,6 +470,7 @@ h2.view-post-section-heading {
 @media only screen and (min-width: 320px) {
 	h2.view-post-section-heading {
 		padding-left: 0px;
+		margin: 0 auto;
 	}
 }
 
