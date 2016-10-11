@@ -805,7 +805,7 @@ video.ZetaTours2 {
 @media (min-width: 30em) {
 	.zeta-ipad-display {
     		height: 895px;
-		background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/01/IPhone6_silver_frontface.png);
+		background-image: url(/ipad-display-black.png);
 	}
 }
 
@@ -816,8 +816,8 @@ video.ZetaTours2 {
 @media (min-width: 30em) {
 	.zeta-post-preview-embed-video {
     		position: absolute;
-   	 	height: calc(100% - 220px);
-   	 	top: 448px;
+		height: calc(100% - 178px);
+   	 	top: 500px;
    	 	left: 50%;
     		transform: translate(-50%,-50%);
 	}
