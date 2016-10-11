@@ -768,7 +768,7 @@ video.ZetaTours2 {
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 30em), (min-resolution: 192dpi) and (min-width: 30em) {
 	.zeta-post-preview-bg {
-    		background-image: url(../BackTracker/BackTracker4-hd.jpg);
+    		background-image: url(../ZetaTours/ZetaTours4-desktop.jpg);
 		opacity: 0.75;
 	}
 }
