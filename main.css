@@ -702,6 +702,62 @@ h2.next-post-btn {
 		margin-bottom: 3.33333em;
 	}
 	.zeta-web-post-preview-bg {
-	    min-width: 1600px;
+	    	min-width: 1600px;
+		/*! add max-height */
 	}
+}
+
+
+/*! -------------------------------------     Embed video and iPhone    ---------------------------------------- */
+
+.zeta-web-post-preview-phone {
+	width: 80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding: 2em 0;
+}
+
+@media (min-width: 30em) {
+	.zeta-web-post-preview-phone {
+	    position: absolute;
+	    top: calc(1000px - 895px - 5%);
+	    width: 100%;
+	}
+}
+
+/*! add iphone if needed */
+
+.zeta-web-iphone6-display {
+	position: relative;
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	background-position: center;
+	
+	overflow: hidden;
+    	height: 100%;
+    	width: 100%;
+    	border-radius: 3px;
+}
+
+
+.zeta-web-post-preview-embed-video {
+	width: 100%;
+}
+
+@media (min-width: 30em) {
+	.zeta-web-post-preview-embed-video {
+    		position: absolute;
+   	 	height: calc(100% - 220px);
+   	 	top: 448px;
+   	 	left: 50%;
+    		transform: translate(-50%,-50%);
+	}
+}
+
+video {
+	overflow: hidden;
+	height: 100%;
+    	width: 100%;
+    	border-radius: 3px;
+	/*! box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26); */
 }
