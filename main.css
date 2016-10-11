@@ -810,14 +810,15 @@ video.ZetaTours2 {
 }
 
 .zeta-post-preview-embed-video {
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 }
 
 @media (min-width: 30em) {
 	.zeta-post-preview-embed-video {
     		position: absolute;
-		height: calc(100% - 178px);
-   	 	top: 500px;
+    		height: calc(100% - 160px);
+   		top: 448px;
    	 	left: 50%;
     		transform: translate(-50%,-50%);
 	}
