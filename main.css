@@ -193,7 +193,7 @@ img.logo {
 /*! ----------------------------------- Henry Latham etc. ------------------------------------ */
 
 ul.intro-list {
-	display: inline-block;
+	display: block;
     	text-align: center;
     	list-style: none;
 	/*! This means the list isn't moved over to the right */
@@ -217,14 +217,14 @@ ul.intro-list li h3 {
 	}
 	
 	ul.intro-list li h1 {
-		margin: 0px;
+		margin: 0 auto;
 		display: block;
 		max-width: 650px;
 		text-align: center;
 	}
 	
 	ul.intro-list li h3 {
-		margin: 0px;
+		margin: 0 auto;
 		padding-top: 8px;
 		padding-bottom: 280px;
 		display: block;
