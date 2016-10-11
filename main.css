@@ -237,13 +237,13 @@ ul.intro-list li h3 {
 
 .intro-header {
 	text-align: center;
-	max-width: 650px;
+	max-width: 300px;
 }
 
 @media only screen and (min-width: 650px) {
 	.intro-header {
-		margin: 0 auto;
-   	 	padding-right: 10%;		
+		margin: 0 auto;	
+		max-width: 650px;
 	}
 }
 
