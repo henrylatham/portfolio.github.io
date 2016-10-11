@@ -531,7 +531,6 @@ h2.view-post-section-heading {
 @media (min-width: 30em) {
 	.video-post-preview {
 		height: 1200px;
-		margin-bottom: 3.33333em;
 	}
 	.post-preview-bg {
 	    background-color: #fff;
@@ -622,7 +621,7 @@ video {
 
 @media only screen and (min-width: 650px) {
 	.next {
-		padding-top: 0px;
+		padding-top: 150px;
 	}
 }
 	
@@ -748,14 +747,12 @@ video.ZetaTours2 {
 
 @media (min-width: 30em) {
 	.zeta-video-post-preview {
-		height: 1200px;
-		margin-bottom: 3.33333em;
+		height: 1070px;
 	}
 	.zeta-post-preview-bg {
 	    background-color: #fff;
 	    background-image: url(../ZetaTours/ZetaTours4-desktop.jpg);
 	    background-repeat: no-repeat;
-	    background-size: contain;
 	    background-position-x: center;
 	    min-width: 1600px;
 	    width: 100%;
@@ -832,4 +829,4 @@ video.ZetaTours4 {
 	/*! box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26); */
 }
 
-/*! padding-top: 120px; for NEXT */
+
