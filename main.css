@@ -523,7 +523,7 @@ h2.view-post-section-heading {
 
 .post-preview-bg {
     position: absolute;
-    background-image: radial-gradient(circle at 50% 44%, #ffffff, #dbdbdb);
+    background-image: radial-gradient(circle at 50% 44%, #ffffff, #9e9e9e);
     height: 100%;
     width: 100%;
 }
@@ -689,7 +689,7 @@ h2.next-post-btn {
 
 .zeta-web-post-preview-bg {
     position: absolute;
-    background-image: radial-gradient(circle at 50% 44%, #ffffff, #dbdbdb);
+    background-image: radial-gradient(circle at 50% 44%, #ffffff, #9e9e9e);
     height: 100%;
     width: 100%;
 }
@@ -718,11 +718,13 @@ video.ZetaTours2 {
 	text-align: center;
     	/*! needs to be centred on x-axis */
 	padding-left: 10%;
-    	top: calc(1200px - 1106px - 5%);
+	top: calc(1200px - 1106px - 22%)
 }
 
 @media (min-width: 30em) {
-
+	video.ZetaTours2 {
+		top: calc(1200px - 1106px - 5%);
+	}
 }
 
 /*! ----------------------------------- 2. Content - Videos ------------------------------------ */
@@ -740,7 +742,7 @@ video.ZetaTours2 {
 
 .zeta-post-preview-bg {
     position: absolute;
-    background-image: radial-gradient(circle at 50% 44%, #ffffff, #dbdbdb);
+    background-image: radial-gradient(circle at 50% 44%, #ffffff, #9e9e9e);
     height: 100%;
     width: 100%;
 }
