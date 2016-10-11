@@ -217,13 +217,19 @@ ul.intro-list li h3 {
 	}
 	
 	ul.intro-list li h1 {
-    	margin: 0px;
+		margin: 0px;
+		display: block;
+		max-width: 650px;
+		text-align: center;
 	}
 	
 	ul.intro-list li h3 {
-	margin: 0px;
-    	padding-top: 8px;
-	padding-bottom: 280px;
+		margin: 0px;
+		padding-top: 8px;
+		padding-bottom: 280px;
+		display: block;
+		max-width: 650px;
+		text-align: center;
 	}
 }
 
