@@ -555,7 +555,7 @@ h2.view-post-section-heading {
 	}
 }
 
-/*! -------------------------------------     Video section     ---------------------------------------- */
+/*! -------------------------------------     Embed video and iPhone    ---------------------------------------- */
 
 .post-preview-phone {
 	width: 80%;
@@ -672,3 +672,36 @@ h2.next-post-btn {
 }
 
 
+/*! ------------------------------------------------ ZETATOURS ----------------------------------------------------------------------- */
+/*! ------------------------------------------------ ZETATOURS ----------------------------------------------------------------------- */
+/*! ------------------------------------------------ ZETATOURS ----------------------------------------------------------------------- */
+/*! ------------------------------------------------ ZETATOURS ----------------------------------------------------------------------- */
+/*! ------------------------------------------------ ZETATOURS ----------------------------------------------------------------------- */
+
+/*! ----------------------------------- Content - Videos ------------------------------------ */
+
+
+.zeta-web-video-post-preview {
+    	position: relative;
+	/*! These two hide any content outside of the div's boundaries and aligns content center */
+	overflow: hidden;
+    	text-align: center;
+	
+}
+
+.zeta-web-post-preview-bg {
+    position: absolute;
+    background-image: radial-gradient(circle at 50% 44%, #ffffff, #dbdbdb);
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 30em) {
+	.zeta-web-video-post-preview {
+		height: 1200px;
+		margin-bottom: 3.33333em;
+	}
+	.zeta-web-post-preview-bg {
+	    min-width: 1600px;
+	}
+}
