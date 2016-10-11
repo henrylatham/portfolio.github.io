@@ -684,8 +684,7 @@ h2.next-post-btn {
 .zeta-web-video-post-preview {
     	position: relative;
 	/*! These two hide any content outside of the div's boundaries and aligns content center */
-	overflow: hidden;
-    	text-align: center;
+	height: 650px;
 	
 }
 
@@ -699,11 +698,6 @@ h2.next-post-btn {
 @media (min-width: 30em) {
 	.zeta-web-video-post-preview {
 		height: 850px;
-		margin-bottom: 3.33333em;
-	}
-	.zeta-web-post-preview-bg {
-	    	min-width: 1600px;
-		/*! add max-height */
 	}
 }
 
@@ -711,15 +705,15 @@ h2.next-post-btn {
 /*! -------------------------------------     Embed video and iPhone    ---------------------------------------- */
 
 video.ZetaTours2 {
-    position: absolute; 
-	margin: 0 auto;
-	padding: 40px;
-    min-width: 100%; 
-    min-height: 100%;
-    width: auto; 
-    height: auto; 
-    z-index: -100;
-    background-size: cover;
-    overflow: hidden;
+	position: absolute; 
+	margin: 50px;
+	height: auto; 
+	width: auto;
+	background-size: cover;
+	overflow: hidden;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
+@media (min-width: 30em) {
+
+}
