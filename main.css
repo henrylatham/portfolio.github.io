@@ -234,6 +234,12 @@ ul.intro-list li h3 {
 	max-width: 650px;
 }
 
+@media only screen and (min-width: 650px) {
+	.intro-header {
+		margin: 0 auto;
+   	 	padding-right: 18%;		
+	}
+}
 
 .post-preview {
 	margin: 0;
