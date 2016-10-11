@@ -718,7 +718,7 @@ video.ZetaTours2 {
 	text-align: center;
     	/*! needs to be centred on x-axis */
 	padding-left: 10%;
-    	top: calc(1200px - 1135px - 5%);
+    	top: calc(1200px - 1106px - 5%);
 }
 
 @media (min-width: 30em) {
