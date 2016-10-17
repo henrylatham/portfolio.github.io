@@ -878,6 +878,7 @@ video.ZetaTours4 {
 
 /*! ----------------------------------- Dirty Havana Video ------------------------------------ */
 
+
 .DH-post-preview-bg {
     position: absolute;
     background-image: radial-gradient(circle at 50% 44%, #ffffff, #9e9e9e);
@@ -905,5 +906,20 @@ video.ZetaTours4 {
 	.DH-post-preview-bg {
     		background-image: url(../DirtyHavana/DirtyHavana-desktop.jpg);
 		opacity: 0.75;
+	}
+}
+
+.DH-post-preview-embed-video {
+	width: 100%;
+}
+
+@media (min-width: 30em) {
+	.DH-post-preview-embed-video {
+    		position: absolute;
+   	 	height: calc(100% - 219px);
+   	 	top: 448px;
+   	 	left: 50%;
+    		transform: translate(-50%,-50%);
+		padding-right: 2px;
 	}
 }
