@@ -127,6 +127,10 @@ a img:hover {
 	opacity: 0.95;
 }
 
+p.a {
+	text-decoration: underline;
+	opacity: .8;
+}
 
 /*! ----------------------------------- Header ------------------------------------ */
 
