@@ -471,7 +471,7 @@ h3.view-post-subtitle {
 @media only screen and (min-width: 650px) {
 	h3.view-post-subtitle {
 		max-width: 600px;
-		padding-left: 80px;
+		padding-left: 78px;
 		padding-bottom: 150px;
 		margin: 0px;
 	}
@@ -631,28 +631,14 @@ video {
 /*! ----------------------------------- Next Post Button ------------------------------------ */
 
 .next {
-	padding-top: 120px;
+	padding-top: 70px;
 }
-
-@media only screen and (min-width: 650px) {
-	.next {
-		padding-top: 150px;
-	}
-}
-	
 
 hr.long-line {
 	max-width: 300px;
 	height: 1px;
 	color: #222E37;
 	opacity: 0.34;
-}
-
-
-@media only screen and (min-width: 650px) {
-	hr.long-line {
-		max-width: 500px;
-	}
 }
 
 h5.next-project {
@@ -679,6 +665,7 @@ h2.next-post-btn {
 
 .next-post-btn {
 	opacity: 0.54;
+	padding-bottom: 130px;
 }
 
 .next-post-btn:hover {
@@ -686,6 +673,17 @@ h2.next-post-btn {
 }
 
 
+@media only screen and (min-width: 650px) {
+	.next {
+		padding-top: 120px;
+	}
+	hr.long-line {
+		max-width: 500px;
+	}
+	.next-post-btn {
+		padding-bottom: 150px;
+	}
+}
 /*! ------------------------------------------------ ZETATOURS ----------------------------------------------------------------------- */
 /*! ------------------------------------------------ ZETATOURS ----------------------------------------------------------------------- */
 /*! ------------------------------------------------ ZETATOURS ----------------------------------------------------------------------- */
