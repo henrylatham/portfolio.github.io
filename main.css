@@ -31,13 +31,18 @@ p {
 
 }
 
+b {
+	color: black;
+    	opacity: 1;
+}
+
+
 @media only screen and (min-width: 650px) {
 	p {
 		max-width: 540px;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-	
 	
 	h1 {
 		font-size: 65px;
@@ -124,12 +129,17 @@ li a:hover {
 }
 
 a img:hover {
-	opacity: 0.95;
+	opacity: 0.8;
 }
 
 p.a {
 	text-decoration: underline;
-	opacity: .8;
+	opacity: .54;
+	color: #0077ff;
+}
+
+p.a:hover {
+	opacity: 0.8;
 }
 
 /*! ----------------------------------- Header ------------------------------------ */
