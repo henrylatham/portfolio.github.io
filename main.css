@@ -470,20 +470,6 @@ h1.view-post-title {
 	max-width: 300px;
 }
 
-@media only screen and (min-width: 650px) {
-	h1.view-post-title {
-		padding-left: 74px;
-		margin: 0;
-	}
-	.view-post-description {
-		padding-top: 150px;
-		padding-left: 0px;
-		padding-right: 0px;
-		max-width: 680px;
-		margin: 0 auto;
-	}
-}
-
 h3.view-post-subtitle {
 	margin: 0 auto;
     	padding-top: 16px;
@@ -493,15 +479,24 @@ h3.view-post-subtitle {
 
 
 @media only screen and (min-width: 650px) {
+	h1.view-post-title {
+    		max-width: 540px;
+    		margin: 0 auto;
+	}
+	.view-post-description {
+		padding-top: 150px;
+		padding-left: 0px;
+		padding-right: 0px;
+		max-width: 540px;
+		margin: 0 auto;
+	}
 	h3.view-post-subtitle {
-		max-width: 600px;
-		padding-left: 78px;
+		max-width: 540px;
 		padding-bottom: 150px;
-		margin: 0px;
+		margin: 0 auto;
 	}
 }
 
-/*! Image CSS same as homepage */
 
 
 /*! ----------------------------------- Content - Paragraphs & Photos ------------------------------------ */
