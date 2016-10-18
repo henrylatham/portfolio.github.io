@@ -685,7 +685,7 @@ h2.next-post-btn {
 
 .next-post-btn {
 	opacity: 0.54;
-	padding-bottom: 100px;
+	margin-bottom: 100px;
 }
 
 .next-post-btn:hover {
@@ -701,7 +701,7 @@ h2.next-post-btn {
 		max-width: 500px;
 	}
 	.next-post-btn {
-		padding-bottom: 150px;
+		margin-bottom: 150px;
 	}
 }
 /*! ------------------------------------------------ ZETATOURS ----------------------------------------------------------------------- */
