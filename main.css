@@ -485,8 +485,9 @@ h3.view-post-subtitle {
 	    
 h2.view-post-section-heading {
 	padding-left: 16px;
+	padding-right: 16px;
 	margin: 0 auto;
-	padding-top: 50px;
+	padding-top: 70px;
 	max-width: 288px;
 	opacity: 1;
 	margin-left: 0px;
@@ -495,7 +496,6 @@ h2.view-post-section-heading {
 
 @media only screen and (min-width: 320px) {
 	h2.view-post-section-heading {
-		padding-left: 0px;
 		margin: 0 auto;
 		max-width: 300px;
 	}
