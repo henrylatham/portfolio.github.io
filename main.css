@@ -118,14 +118,21 @@ hr.hr-short {
 
 /*! ----------------------------------- Links ------------------------------------ */
 
+/*! I could merge all the a tags */
+a {
+	text-decoration: none;
+	opacity: 0.54;
+	color: #222e37;
+}
+
 li a {
   	text-decoration: none;
 	opacity: 0.54;
 	color: #222e37;
 }
 
-li a:hover {
-  opacity: 1; 
+a, li a:hover {
+  opacity: 0.8; 
 }
 
 a img:hover {
