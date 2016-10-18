@@ -209,6 +209,16 @@ ul.intro-list li h3 {
 	margin: 0px;
     	padding-top: 12px;
 	padding-bottom: 100px;
+	padding-left: 50px;
+    	padding-right: 50px;
+}
+
+
+@media only screen and (min-width: 320px) {
+	ul.intro-list li h3 {
+		padding-left: 12px;
+    		padding-right: 12px;
+	}
 }
 
 @media only screen and (min-width: 650px) {
