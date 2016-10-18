@@ -274,7 +274,7 @@ h1.post-title {
 }
 
 a.read-more {
-	display: table-footer-group;
+	display: block;
     	vertical-align: middle;
 	opacity: 0.54;
 	color: #0077ff;
@@ -283,7 +283,8 @@ a.read-more {
     	font-weight: 600;
     	line-height: 1.3;
     	letter-spacing: -0.2px;
-	/*! padding-left */
+	padding-top: 36px;
+    	padding-bottom: 16px;
 }
 
 a.read-more:hover {
@@ -302,7 +303,7 @@ h3.post-subtitle {
 /*! Switch preview text and Read More */
 .switch-preview  { 
 	display: table; 
-	padding-bottom: 100px;
+	padding-bottom: 84px;
     	padding-left: 20px;
 	padding-top: 16px;
 	}
@@ -328,11 +329,12 @@ h3.post-subtitle {
 		display: inline-block;
 		vertical-align: middle;
 		padding-left: 24px;
+		padding-bottom: 0px;
 		padding-top: 20px;
 		margin: 0px;
+		
 		opacity: 0.54;
 		color: #0077ff;
-
 		text-decoration: none;
 		font-size: 17px;
 		font-weight: 600;
