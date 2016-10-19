@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
 
     $('.read-more').click(function() {
-        $('.read-more').fadeOut('slow');
+        $('.read-more').animate({left:'+=20px'},100);
     });
     
     
