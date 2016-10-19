@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
-    $('#menu').click(function() {
-        $(this).effect('bounce', {times: 3}, 500);
+    $('caption').hover(function() {
+        $('caption').addClass('red');
     });
 });
+
