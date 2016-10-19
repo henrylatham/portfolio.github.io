@@ -305,10 +305,18 @@ h1.post-title {
 	float: none;
 }
 
-a.read-more {
-	display: block;
-    	vertical-align: middle;
+
+.read-more-btn {
 	opacity: 0.54;
+}
+
+.read-more-btn:hover {
+  opacity: 1; 
+}
+
+a.read-more {
+	display: inline-block;
+    	vertical-align: middle;
 	color: #0077ff;
 	text-decoration: none;
 	font-size: 15px;
@@ -319,10 +327,12 @@ a.read-more {
     	padding-bottom: 16px;
 }
 
-a.read-more:hover {
-  opacity: 1; 
+.read-more-arrow {
+	display: inline-block;
+    	vertical-align: middle;
+    	padding-top: 20px;
+    	padding-left: 4px;
 }
-
 
 h3.post-subtitle {
 	margin: 0;
