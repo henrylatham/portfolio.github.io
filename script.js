@@ -5,6 +5,11 @@ $(document).ready(function() {
         $('.caption').fadeOut();
     });
 
-
+    $('.read-more').click(function() {
+        $('.read-more').fadeOut('slow');
+    });
+    
+    
+    
 });
 
