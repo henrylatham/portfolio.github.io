@@ -132,11 +132,11 @@ li a {
 }
 
 a, li a:hover {
-  opacity: 0.8; 
+  opacity: 1; 
 }
 
 a img:hover {
-	opacity: 0.8;
+	opacity: 1;
 }
 
 p.a {
