@@ -1,12 +1,10 @@
 
 $(document).ready(function() {
 
-    $('.caption').fadeOut();
-});
-
-    $('img').hover(function() {
-        $(this).fadeOut('slow');
+    $('.caption').hover(function(){
+        $('.caption').fadeOut();
     });
+
 
 });
 
