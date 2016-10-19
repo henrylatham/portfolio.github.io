@@ -121,7 +121,6 @@ hr.hr-short {
 /*! I could merge all the a tags */
 a {
 	text-decoration: none;
-	opacity: 0.54;
 	color: #222e37;
 }
 
