@@ -931,7 +931,7 @@ video.ZetaTours4 {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 30em), (min-resolution: 192dpi) and (min-width: 30em) {
-	.post-preview-bg {
+	.uni-post-preview-bg {
     		background-image: url(../Uniyap/Uniyap4-hd.jpg);
 		opacity: 0.75;
 	}
